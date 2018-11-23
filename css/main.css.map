@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACA,+CAA+C;AAA/C,+CAA+C;AAA/C,+CAA+C;AAA/C,+CAA+C",
+"sources": ["../scss/partials/_variables.scss"],
+"names": [],
+"file": "main.css"
+}

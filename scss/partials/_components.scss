@@ -3,7 +3,6 @@
 /******** Navigation Bar *********/
 
 nav {
-    // height: 100px;
     letter-spacing: 2px;
     font-size: 12px;
     position: sticky;
@@ -16,7 +15,7 @@ nav {
 }
 
 nav > ul {
-    width: 70%;
+    width: 75%;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -25,12 +24,12 @@ nav > ul {
 
     .nav-item {
         color: grey;
-        font-size: 14px;
-        // margin: 15px auto;
+        font-size: 15px;
         background-color: #eeeeee00;
         border: none;
         border-radius: 10px;
-        padding: 15px;
+        padding: 15px 8px;
+
 
         &:hover {
             color: $color1;
@@ -52,29 +51,29 @@ nav > ul {
 
         button {
             float: right;
-            padding: 6px 10px;
+            padding: 0px 10px;
             margin: 14px auto;
             height: 25px;
             background: #ddd;
-            font-size: 17px;
+            font-size: 10px;
             border: none;
             cursor: pointer;
             background-color: $color2;
             color: $color1;
-            border: 1px solid grey;
-            border-bottom-right-radius: 2px;
-            border-top-right-radius: 2px;
+            border: 1px solid $color4;
+            border-bottom-right-radius: 3px;
+            border-top-right-radius: 3px;
         }
 
         input {
             padding: 6px 15px;
             margin: 14px auto;
             height: 25px;
-            font-size: 17px;
+            font-size: 12px;
             border: none;
-            border: 1px solid grey;
-            border-bottom-left-radius: 2px;
-            border-top-left-radius: 2px;
+            border: 1px solid $color4;
+            border-bottom-left-radius: 3px;
+            border-top-left-radius: 3px;
             background-color: $color2;
         }
 
@@ -100,7 +99,7 @@ nav > ul {
     }
 
     // &:hover {
-        
+    //     max-width: 600px;
     // }
 }
 

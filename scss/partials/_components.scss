@@ -3,6 +3,9 @@
 /******** Navigation Bar *********/
 
 nav {
+    // height: 100px;
+    letter-spacing: 2px;
+    font-size: 12px;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -13,7 +16,7 @@ nav {
 }
 
 nav > ul {
-    width: 80%;
+    width: 70%;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -22,11 +25,12 @@ nav > ul {
 
     .nav-item {
         color: grey;
-        font-size: 1.25rem;
-        margin: 10px 5px;
+        font-size: 14px;
+        // margin: 15px auto;
         background-color: #eeeeee00;
         border: none;
         border-radius: 10px;
+        padding: 15px;
 
         &:hover {
             color: $color1;
@@ -49,32 +53,32 @@ nav > ul {
         button {
             float: right;
             padding: 6px 10px;
-            margin-top: 8px;
-            margin-right: 16px;
+            margin: 14px auto;
+            height: 25px;
             background: #ddd;
             font-size: 17px;
             border: none;
             cursor: pointer;
+            background-color: $color2;
+            color: $color1;
+            border: 1px solid grey;
+            border-bottom-right-radius: 2px;
+            border-top-right-radius: 2px;
         }
 
         input {
             padding: 6px 15px;
-            margin-top: 8px;
+            margin: 14px auto;
+            height: 25px;
             font-size: 17px;
             border: none;
             border: 1px solid grey;
-            border-bottom-left-radius: 5px;
-            border-top-left-radius: 5px;
+            border-bottom-left-radius: 2px;
+            border-top-left-radius: 2px;
             background-color: $color2;
         }
 
-        button {
-            background-color: $color2;
-            color: $color1;
-            border: 1px solid grey;
-            border-bottom-right-radius: 5px;
-            border-top-right-radius: 5px;
-        }
+        
     }
 }
 

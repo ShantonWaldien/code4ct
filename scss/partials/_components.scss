@@ -13,7 +13,7 @@ nav {
 }
 
 nav > ul {
-    width: 100%;
+    width: 80%;
     padding: 0;
     margin: 0;
     display: inline-block;
@@ -44,6 +44,7 @@ nav > ul {
     .search-container {
         float: right;
         height: 30px;
+        margin-left: -280px;
 
         button {
             float: right;
@@ -57,7 +58,7 @@ nav > ul {
         }
 
         input {
-            padding: 6px;
+            padding: 6px 15px;
             margin-top: 8px;
             font-size: 17px;
             border: none;

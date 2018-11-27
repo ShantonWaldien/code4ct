@@ -5,6 +5,8 @@ html {
   margin: 0; }
 
 body {
+  padding: 12px;
+  background-color: #f9f9f9;
   margin: 0;
   font-family: 'Poppins', sans-serif; }
 
@@ -18,7 +20,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 55px;
-  background-color: #555555;
+  background-color: #252525;
   background-blend-mode: multiply; }
 
 h1 {
@@ -39,7 +41,7 @@ nav {
   text-align: center; }
 
 nav > ul {
-  width: 100%;
+  width: 80%;
   padding: 0;
   margin: 0;
   display: inline-block;
@@ -62,7 +64,8 @@ nav > ul {
     transition: all 300ms ease-in-out; }
   nav > ul .search-container {
     float: right;
-    height: 30px; }
+    height: 30px;
+    margin-left: -280px; }
     nav > ul .search-container button {
       float: right;
       padding: 6px 10px;
@@ -73,7 +76,7 @@ nav > ul {
       border: none;
       cursor: pointer; }
     nav > ul .search-container input {
-      padding: 6px;
+      padding: 6px 15px;
       margin-top: 8px;
       font-size: 17px;
       border: none;
@@ -135,7 +138,7 @@ nav {
   text-align: center; }
 
 nav > ul {
-  width: 100%;
+  width: 80%;
   padding: 0;
   margin: 0;
   display: inline-block;
@@ -158,7 +161,8 @@ nav > ul {
     transition: all 300ms ease-in-out; }
   nav > ul .search-container {
     float: right;
-    height: 30px; }
+    height: 30px;
+    margin-left: -280px; }
     nav > ul .search-container button {
       float: right;
       padding: 6px 10px;
@@ -169,7 +173,7 @@ nav > ul {
       border: none;
       cursor: pointer; }
     nav > ul .search-container input {
-      padding: 6px;
+      padding: 6px 15px;
       margin-top: 8px;
       font-size: 17px;
       border: none;

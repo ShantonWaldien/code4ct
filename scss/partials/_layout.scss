@@ -3,8 +3,6 @@
 /********* Intro *************/
 
 .intro {
-    // margin: 280px 450px;
-
     text-align: center;
     padding: 200px 360px;
     margin: 0;
@@ -21,5 +19,9 @@
     button {
         align-content: center;
         margin: 15px 0 0 0;
+    }
+
+    .revert-btn {
+        margin-left: 20px;
     }
 }

@@ -3,7 +3,9 @@
 /******** Navigation Bar *********/
 
 nav {
-    position: fixed;
+    position: sticky;
+    top: 0;
+    z-index: 1;
     width: 100%;
     padding: 0.5rem 0;
     background-color: $color2;
@@ -35,10 +37,9 @@ nav > ul {
         text-transform: uppercase;
         width: auto;
         font-size: 0.8em;
-        display: inline-table;
+        display: inline-block;
         transition: all 300ms ease-in-out
     }
-
 }
 
 
@@ -49,16 +50,16 @@ nav > ul {
     // margin: 280px 450px;
 
     text-align: center;
-    padding: 200px 235px;
+    padding: 200px 360px;
     margin: 0;
     font-size: 15px;    
 
     h1 {
-        font-size: 4em;
+        font-size: 3em;
     }
 
     p {
-        font-size: 18px;
+        font-size: 15px;
     }
 
     button {

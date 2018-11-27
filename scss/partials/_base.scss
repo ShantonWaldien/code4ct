@@ -22,7 +22,7 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-position-y: 55px;
-    background-color: $color3;
+    background-color: $color4;
     background-blend-mode: multiply;
 }
 
@@ -35,9 +35,9 @@ p {
 }
 
 .btn {
-    width: 20%;
+    width: 25%;
     color: $color2;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 15px 30px;
     background-color: $color1;
     border: none;
@@ -49,9 +49,9 @@ p {
         color: $color2;
     }
 
-    &:hover {
+    // &:hover {
         
-    }
+    // }
 }
 
 .revert-btn {

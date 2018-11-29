@@ -40,6 +40,11 @@ nav {
   padding: 0.5rem 0;
   background-color: #FFFFFF;
   text-align: center; }
+  nav .logo {
+    padding: auto auto;
+    vertical-align: middle;
+    margin: -17px;
+    height: 53px; }
 
 nav > ul {
   width: 72%;
@@ -107,11 +112,31 @@ nav > ul {
     text-decoration: none;
     color: #FFFFFF; }
   .btn:hover {
-    transform: scale(1.1); }
+    width: 250px; }
 
 .revert-btn {
   border: 1px solid #FFFFFF;
   background-color: transparent; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #E59186;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px; }
+  #myBtn #myBtn:hover {
+    background-color: #555; }
+  #myBtn .fa-angle-double-up {
+    color: #FFFFFF;
+    padding: 10px; }
 
 /******** Descriptive Color Variables ********/
 /********* Intro *************/
@@ -143,6 +168,11 @@ nav {
   padding: 0.5rem 0;
   background-color: #FFFFFF;
   text-align: center; }
+  nav .logo {
+    padding: auto auto;
+    vertical-align: middle;
+    margin: -17px;
+    height: 53px; }
 
 nav > ul {
   width: 72%;
@@ -210,10 +240,30 @@ nav > ul {
     text-decoration: none;
     color: #FFFFFF; }
   .btn:hover {
-    transform: scale(1.1); }
+    width: 250px; }
 
 .revert-btn {
   border: 1px solid #FFFFFF;
   background-color: transparent; }
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #E59186;
+  color: white;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 4px; }
+  #myBtn #myBtn:hover {
+    background-color: #555; }
+  #myBtn .fa-angle-double-up {
+    color: #FFFFFF;
+    padding: 10px; }
 
 /*# sourceMappingURL=main.css.map */

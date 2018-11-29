@@ -31,7 +31,7 @@
 
 .who-we-are {
     height: 70vh;
-    margin: 60px 280px;
+    margin: 60px 200px;
 
     .who-we-are-grid-container {
         display: grid;
@@ -41,16 +41,18 @@
     
     .title-who-we-are {
         color: $color3;
-        border-bottom: 1px solid rgba(91, 91, 91, 0.363);
-        margin-bottom: 0px;
 
-        &:after {
-            content: '';
-            display: block;
-            border-bottom: 3px solid $color1;
-            margin-bottom: 0px;
-            max-width: 100px;
-        }
+        // border-bottom: 1px solid rgba(91, 91, 91, 0.363);
+        // margin-bottom: 10px;
+        // max-width: 300px;
+
+        // &:after {
+        //     content: '';
+        //     display: block;
+        //     border-bottom: 4px solid $color1;
+        //     margin-bottom: 10px;
+        //     max-width: 80px;
+        // }
     }
 
     .grid-item {

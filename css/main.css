@@ -235,7 +235,7 @@ nav {
     padding: 80px 170px;
     display: grid;
     grid-gap: 25px;
-    grid-template-columns: 1fr 1fr 1fr; }
+    grid-template-columns: 1fr 1fr 1fr 1fr; }
     .skill-icons .skill-icons-grid-container .icon-item {
       text-align: center; }
       .skill-icons .skill-icons-grid-container .icon-item h2 {

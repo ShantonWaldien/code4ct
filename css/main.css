@@ -56,7 +56,7 @@ nav {
     border-radius: 10px;
     padding: 15px 8px; }
     nav .nav-item:hover {
-      color: #E49085; }
+      color: #E69286; }
   nav li {
     text-transform: uppercase;
     width: auto;
@@ -77,7 +77,7 @@ nav {
       border: none;
       cursor: pointer;
       background-color: #FFFFFF;
-      color: #E49085;
+      color: #E69286;
       border: 1px solid #5555555d;
       border-bottom-right-radius: 3px;
       border-top-right-radius: 3px; }
@@ -102,7 +102,7 @@ nav {
   width: 25%;
   font-size: 1rem;
   padding: 15px 10px;
-  background-color: #E49085;
+  background-color: #E69286;
   border: none;
   border-radius: 5px;
   transition: all 300ms ease-in-out;
@@ -138,7 +138,7 @@ nav {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #E49085;
+  background-color: #E69286;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -161,7 +161,7 @@ nav {
     height: 2.5px;
     margin-left: -5px; }
   .lines li:nth-child(1) {
-    background: #E49085; }
+    background: #E69286; }
   .lines li:nth-child(2) {
     background: rgba(91, 91, 91, 0.363);
     height: 1px;
@@ -172,7 +172,7 @@ nav {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 250px 370px;
+  padding: 230px 370px;
   margin: 0;
   font-size: 15px; }
   .intro h1 {
@@ -189,7 +189,7 @@ nav {
 /***** Who We are Section *****/
 .who-we-are {
   height: 60vh;
-  margin: 100px 190px; }
+  margin: 100px 170px; }
   .who-we-are .who-we-are-grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -226,6 +226,25 @@ nav {
       width: 100%;
       height: 100%; }
 
+/******** Coding, Problem solving and Career Guidance styling *******/
+.skill-icons {
+  height: 50vh;
+  background-color: #121212;
+  font-size: 13px; }
+  .skill-icons .skill-icons-grid-container {
+    padding: 80px 170px;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr; }
+    .skill-icons .skill-icons-grid-container .icon-item {
+      text-align: center; }
+      .skill-icons .skill-icons-grid-container .icon-item h2 {
+        color: #FFFFFF; }
+      .skill-icons .skill-icons-grid-container .icon-item .icon {
+        margin: 0;
+        font-size: 50px;
+        color: #E69286; }
+
 /******** Descriptive Color Variables ********/
 /******** Navigation Bar *********/
 nav {
@@ -254,7 +273,7 @@ nav {
     border-radius: 10px;
     padding: 15px 8px; }
     nav .nav-item:hover {
-      color: #E49085; }
+      color: #E69286; }
   nav li {
     text-transform: uppercase;
     width: auto;
@@ -275,7 +294,7 @@ nav {
       border: none;
       cursor: pointer;
       background-color: #FFFFFF;
-      color: #E49085;
+      color: #E69286;
       border: 1px solid #5555555d;
       border-bottom-right-radius: 3px;
       border-top-right-radius: 3px; }
@@ -300,7 +319,7 @@ nav {
   width: 25%;
   font-size: 1rem;
   padding: 15px 10px;
-  background-color: #E49085;
+  background-color: #E69286;
   border: none;
   border-radius: 5px;
   transition: all 300ms ease-in-out;
@@ -336,7 +355,7 @@ nav {
   font-size: 18px;
   border: none;
   outline: none;
-  background-color: #E49085;
+  background-color: #E69286;
   color: white;
   cursor: pointer;
   padding: 10px;
@@ -359,7 +378,7 @@ nav {
     height: 2.5px;
     margin-left: -5px; }
   .lines li:nth-child(1) {
-    background: #E49085; }
+    background: #E69286; }
   .lines li:nth-child(2) {
     background: rgba(91, 91, 91, 0.363);
     height: 1px;

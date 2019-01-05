@@ -29,6 +29,11 @@ p {
   color: #FFFFFF; }
 
 /******** Descriptive Color Variables ********/
+h2 {
+  color: #5B5B5B;
+  margin-top: 0;
+  font-size: 20px; }
+
 /******** Navigation Bar *********/
 nav {
   letter-spacing: 2px;
@@ -99,7 +104,7 @@ nav {
 
 /******** Buttons ********/
 .btn {
-  width: 25%;
+  width: 16%;
   font-size: 1rem;
   padding: 15px 10px;
   background-color: #E69286;
@@ -109,7 +114,7 @@ nav {
   font-family: 'Poppins', sans-serif; }
   .btn:hover {
     padding: 15px 50px 15px 15px;
-    width: 230px; }
+    width: 20%; }
   .btn:hover:after {
     content: "\00bb";
     color: #FFFFFF;
@@ -172,7 +177,7 @@ nav {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 230px 370px;
+  padding: 290px 370px;
   margin: 0;
   font-size: 15px; }
   .intro h1 {
@@ -228,11 +233,11 @@ nav {
 
 /******** Coding, Problem solving and Career Guidance styling *******/
 .skill-icons {
-  height: 50vh;
+  height: auto;
   background-color: #121212;
   font-size: 13px; }
   .skill-icons .skill-icons-grid-container {
-    padding: 80px 170px;
+    padding: 60px;
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
@@ -245,7 +250,24 @@ nav {
         font-size: 50px;
         color: #E69286; }
 
+/******** Courses Section *******/
+.courses-section {
+  height: auto;
+  margin: 100px 170px; }
+  .courses-section p {
+    color: #5B5B5B;
+    margin: 0 20% 0 0; }
+  .courses-section .our-exciting-courses {
+    color: #5B5B5B;
+    margin-top: 0;
+    font-size: 20px; }
+
 /******** Descriptive Color Variables ********/
+h2 {
+  color: #5B5B5B;
+  margin-top: 0;
+  font-size: 20px; }
+
 /******** Navigation Bar *********/
 nav {
   letter-spacing: 2px;
@@ -316,7 +338,7 @@ nav {
 
 /******** Buttons ********/
 .btn {
-  width: 25%;
+  width: 16%;
   font-size: 1rem;
   padding: 15px 10px;
   background-color: #E69286;
@@ -326,7 +348,7 @@ nav {
   font-family: 'Poppins', sans-serif; }
   .btn:hover {
     padding: 15px 50px 15px 15px;
-    width: 230px; }
+    width: 20%; }
   .btn:hover:after {
     content: "\00bb";
     color: #FFFFFF;

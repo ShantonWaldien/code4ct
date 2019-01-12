@@ -137,5 +137,28 @@
         margin-top: 0;
         font-size: 20px;
     }
+
+    /**** Grid Container for Course content styling ****/
+
+    .course-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 2fr;
+        grid-gap: 20px;
+
+        .course-item {
+            background-color: red;
+
+            &:nth-child(3) {
+                grid-column-start: 3;
+                grid-row-start: 1;
+                grid-row-end: 3;    
+            }
+
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
 }
 

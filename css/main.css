@@ -237,7 +237,7 @@ nav {
   background-color: #121212;
   font-size: 13px; }
   .skill-icons .skill-icons-grid-container {
-    padding: 60px;
+    padding: 30px 170px;
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
@@ -265,16 +265,15 @@ nav {
   .courses-section .course-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 20px; }
-    .courses-section .course-grid-container .course-item {
-      background-color: red; }
-      .courses-section .course-grid-container .course-item:nth-child(3) {
-        grid-column-start: 3;
-        grid-row-start: 1;
-        grid-row-end: 3; }
-      .courses-section .course-grid-container .course-item img {
-        width: 100%;
-        height: 100%; }
+    grid-gap: 20px;
+    padding: 60px 0; }
+    .courses-section .course-grid-container .course-item:nth-child(3) {
+      grid-column-start: 3;
+      grid-row-start: 1;
+      grid-row-end: 3; }
+    .courses-section .course-grid-container .course-item img {
+      width: 100%;
+      height: 100%; }
 
 /******** Descriptive Color Variables ********/
 h2 {

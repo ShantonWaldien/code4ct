@@ -30,8 +30,8 @@
 /***** Who We are Section *****/
 
 .who-we-are {
-    height: 60vh;
-    margin: 100px 170px;
+    height: auto;
+    margin: 130px 170px;
 
     .who-we-are-grid-container {
         display: grid;
@@ -129,7 +129,7 @@
 
     p {
         color: $color3;
-        margin: 0 20% 0 0;
+        margin: 30px 20% 40px 0;
     }
 
     .our-exciting-courses {

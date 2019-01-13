@@ -177,7 +177,7 @@
         padding: 40px 0 0 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
+        grid-gap: 30px;
 
         .grid-item-team {
             padding: 30px 0 0 0;
@@ -191,7 +191,7 @@
             }
 
             .team-position {
-                margin: 0;
+                margin: 0 40px 0 0;
                 color: $color4;
                 font-weight: 100;
                 font-size: 1.1em;

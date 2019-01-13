@@ -168,17 +168,21 @@
     margin: 100px 170px;
 
     p {
+        padding: 10px 0 0 0;
         color: $color4;
         font-weight: 100;
     }
 
     .team-grid-container {
+        padding: 40px 0 0 0;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 30px;
+        grid-gap: 20px;
 
         .grid-item-team {
-            background: #bada55;
+            padding: 30px 0 0 0;
+            width: 100%;
+            height: 300px;
 
             .team-name {
                 margin: 0;
@@ -195,10 +199,27 @@
                 border-bottom: 1px solid;
             }
 
-            img {
-                width: 100%;
-                height: 100%;
+            .team-social-icons {
+                padding: 30px 0 0 0;
+
+                a {
+                    text-decoration: none;
+                    color: grey;
+                    font-size: 16px;
+                    padding: 0 16px 0 0;
+                    transition: all 300ms ease-in-out;
+
+                    &:hover {
+                        color: $color1;
+                    }
+                }
             }
+
+        }
+
+        .member {
+            background-image: url(../img/person1.jpg);
+            background-size: cover;
         }
 
 

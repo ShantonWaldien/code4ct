@@ -8,9 +8,9 @@
     margin: 0;
     font-size: 15px;    
 
-    h1 {
+    .code-4-ct {
+        color: $color2;
         font-size: 3.5em;
-        font-weight: 600;
     }
 
     p {
@@ -49,7 +49,7 @@
         }
 
         p {
-            color: $color3;
+            color: $color4;
             font-size: 16px;
         }
 
@@ -100,7 +100,7 @@
     font-size: 13px;
 
     .skill-icons-grid-container {
-        padding: 30px 170px;
+        padding: 100px 170px;
         display: grid;
         grid-gap: 25px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -128,7 +128,7 @@
     margin: 100px 170px;
 
     p {
-        color: $color3;
+        color: $color4;
         margin: 30px 20% 40px 0;
     }
 
@@ -160,5 +160,18 @@
             }
         }
     }
+}
+
+/******** Meet Our Team Section *******/
+
+.meet-our-team {
+    margin: 100px 170px;
+
+    p {
+        color: $color4;
+        font-weight: 100;
+    }
+
+
 }
 

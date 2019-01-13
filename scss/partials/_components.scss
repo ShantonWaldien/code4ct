@@ -102,7 +102,7 @@ nav {
 .btn {
     width: 16%;
     font-size: 1rem;
-    padding: 15px 10px;
+    padding: 10px 10px;
     background-color: $color1;
     border: none;
     border-radius: 5px;
@@ -110,14 +110,14 @@ nav {
     font-family: 'Poppins', sans-serif;
 
     &:hover {
-        padding: 15px 50px 15px 15px;
+        padding: 10px 50px 10px 15px;
         width: 20%;    
     }
 
     &:hover:after {
         content: "\00bb";
         color: $color2;
-        padding-left: 30px;
+        padding-left: 10px;
         transition: 0.5s;
     }
 

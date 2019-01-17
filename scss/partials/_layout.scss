@@ -245,6 +245,18 @@
     background-color: $color5;
     width: 100%;
     height: 300px;
+
+    .stat-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 50px;
+        padding: 80px 170px;
+
+        .stat-counter-item {
+            background: red;
+
+        }
+    }
 }
 
 

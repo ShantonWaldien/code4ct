@@ -335,5 +335,12 @@ nav {
   background-color: #121212;
   width: 100%;
   height: 300px; }
+  .counter-section .stat-grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 50px;
+    padding: 80px 170px; }
+    .counter-section .stat-grid-container .stat-counter-item {
+      background: red; }
 
 /*# sourceMappingURL=main.css.map */

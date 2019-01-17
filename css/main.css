@@ -108,13 +108,13 @@ nav {
 
 /******** Buttons ********/
 .btn {
-  width: 160px;
-  height: 48px;
+  width: 10.6em;
+  height: 3em;
   font-size: 0.875em;
   padding: 10px 10px;
   background-color: #E69286;
   border: none;
-  border-radius: 5px;
+  border-radius: 4px;
   transition: all 300ms ease-in-out;
   font-family: 'Poppins', sans-serif; }
   .btn:hover {
@@ -136,7 +136,7 @@ nav {
       display: block; }
 
 .revert-btn {
-  border: 1px solid #FFFFFF;
+  border: 1px solid #E8E8E8;
   background-color: transparent; }
 
 #myBtn {
@@ -182,8 +182,7 @@ nav {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 290px 0;
-  margin: 0 170px;
+  padding: 17em 23em;
   font-size: 15px; }
   .intro .code-4-ct {
     color: #FFFFFF;
@@ -200,26 +199,26 @@ nav {
 /***** Who We are Section *****/
 .who-we-are {
   height: auto;
-  margin: 110px 350px; }
+  padding: 120px 170px; }
   .who-we-are .who-we-are-grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    grid-gap: 25px;
+    grid-gap: 30px;
     margin-top: 10px; }
   .who-we-are .grid-item h2 {
     font-size: 1em;
     font-weight: 500;
-    margin: 30px 0 40px 0; }
+    margin: 20px 0 40px 0; }
   .who-we-are .grid-item p {
     color: #A4A5A5;
     font-size: 0.875em; }
   .who-we-are .grid-item .btn {
-    margin-top: 20px;
+    margin-top: 60px;
     color: #5B5B5B; }
     .who-we-are .grid-item .btn a {
       color: #A4A5A5; }
   .who-we-are .grid-item .revert-btn {
-    border: 1px solid #A4A5A5; }
+    border: 1px solid #E8E8E8; }
     .who-we-are .grid-item .revert-btn:hover:after {
       content: "\00bb";
       color: #A4A5A5;
@@ -232,57 +231,65 @@ nav {
   .who-we-are .image-container {
     display: grid;
     grid-template-columns: 1.5fr 1.5fr;
-    grid-gap: 25px; }
-    .who-we-are .image-container img {
+    grid-gap: 30px; }
+    .who-we-are .image-container .image-item {
       width: 16.875em;
       height: 13.313em; }
+    .who-we-are .image-container img {
+      width: 100%;
+      height: 100%; }
 
 /******** Coding, Problem solving and Career Guidance styling *******/
 .skill-icons {
   height: auto;
-  background-color: #121212;
-  font-size: 0.875em; }
+  background-color: #121212; }
   .skill-icons .skill-icons-grid-container {
-    padding: 80px 350px;
+    padding: 90px 170px;
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
     .skill-icons .skill-icons-grid-container .icon-item {
       text-align: center; }
       .skill-icons .skill-icons-grid-container .icon-item h2 {
-        color: #FFFFFF; }
+        color: #FFFFFF;
+        font-size: 1.25em; }
       .skill-icons .skill-icons-grid-container .icon-item .icon {
         margin: 0;
-        font-size: 50px;
+        font-size: 2.5em;
         color: #E69286; }
+      .skill-icons .skill-icons-grid-container .icon-item p {
+        font-size: 0.875em;
+        font-weight: 300; }
 
 /******** Courses Section *******/
 .courses-section {
   height: auto;
-  margin: 110px 350px;
+  padding: 120px 170px;
   /**** Grid Container for Course content styling ****/ }
   .courses-section p {
     color: #A4A5A5;
-    margin: 30px 210px 40px 0; }
+    margin: 30px 210px 102px 0;
+    font-size: 0.875em; }
   .courses-section .our-exciting-courses {
     color: #5B5B5B;
     margin-top: 0; }
   .courses-section .course-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 20px;
-    padding: 60px 0; }
-    .courses-section .course-grid-container .course-item:nth-child(3) {
-      grid-column-start: 3;
-      grid-row-start: 1;
-      grid-row-end: 3; }
-    .courses-section .course-grid-container .course-item img {
+    grid-gap: 20px; }
+    .courses-section .course-grid-container .course-item {
       width: 100%;
       height: 100%; }
+      .courses-section .course-grid-container .course-item:nth-child(3) {
+        grid-column: 3 / 4;
+        grid-row: 1 / 3; }
+      .courses-section .course-grid-container .course-item img {
+        width: 100%;
+        height: 100%; }
 
 /******** Meet Our Team Section *******/
 .meet-our-team {
-  margin: 110px 350px; }
+  margin: 0 170px 120px 170px; }
   .meet-our-team p {
     padding: 10px 0 0 0;
     color: #A4A5A5;
@@ -308,7 +315,7 @@ nav {
         font-weight: 100;
         font-size: 0.875em;
         padding: 0 0 20px 0;
-        border-bottom: 1px solid; }
+        border-bottom: 1px solid #E8E8E8; }
       .meet-our-team .team-grid-container .grid-item-team .team-social-icons {
         padding: 15px 0 0 0; }
         .meet-our-team .team-grid-container .grid-item-team .team-social-icons a {

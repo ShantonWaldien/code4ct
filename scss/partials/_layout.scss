@@ -4,8 +4,7 @@
 
 .intro {
     text-align: center;
-    padding: 290px 0;
-    margin: 0 170px;
+    padding: 17em 23em;
     font-size: 15px;    
 
     .code-4-ct {
@@ -32,12 +31,12 @@
 
 .who-we-are {
     height: auto;
-    margin: 110px 350px;
+    padding: 120px 170px;
 
     .who-we-are-grid-container {
         display: grid;
         grid-template-columns: auto auto;
-        grid-gap: 25px;
+        grid-gap: 30px;
         margin-top: 10px;
     }
 
@@ -46,7 +45,7 @@
         h2 {
             font-size: 1em;
             font-weight: 500;
-            margin: 30px 0 40px 0;
+            margin: 20px 0 40px 0;
         }
 
         p {
@@ -55,7 +54,7 @@
         }
 
         .btn {
-            margin-top: 20px;
+            margin-top: 60px;
             color: $color3;
 
             a {
@@ -64,7 +63,7 @@
         }
 
         .revert-btn {
-            border: 1px solid $color4;
+            border: 1px solid $color6;
 
             &:hover:after {
                 content: "\00bb";
@@ -84,11 +83,16 @@
     .image-container {
         display: grid;
         grid-template-columns: 1.5fr 1.5fr;
-        grid-gap: 25px;
+        grid-gap: 30px;
 
-        img {
+        .image-item {
             width: 16.875em;
             height: 13.313em;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
         }
     }
 }
@@ -98,10 +102,9 @@
 .skill-icons {
     height: auto;
     background-color: $color5;
-    font-size: 0.875em;
 
     .skill-icons-grid-container {
-        padding: 80px 350px;
+        padding: 90px 170px;
         display: grid;
         grid-gap: 25px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -111,12 +114,18 @@
 
             h2 {
                 color: $color2;
+                font-size: 1.25em
             }
             
             .icon {
                 margin: 0;
-                font-size: 50px;
+                font-size: 2.5em;
                 color: $color1;
+            }
+
+            p {
+                font-size: 0.875em;
+                font-weight: 300;
             }
         }
     }
@@ -126,11 +135,12 @@
 
 .courses-section {
     height: auto;
-    margin: 110px 350px;
+    padding: 120px 170px;
 
     p {
         color: $color4;
-        margin: 30px 210px 40px 0;
+        margin: 30px 210px 102px 0;
+        font-size: 0.875em;
     }
 
     .our-exciting-courses {
@@ -144,14 +154,14 @@
         display: grid;
         grid-template-columns: 1fr 1fr 2fr;
         grid-gap: 20px;
-        padding: 60px 0;
 
         .course-item {
-
+            width: 100%;
+            height: 100%;
+            
             &:nth-child(3) {
-                grid-column-start: 3;
-                grid-row-start: 1;
-                grid-row-end: 3;    
+                grid-column: 3 / 4;
+                grid-row: 1 / 3;
             }
 
             img {
@@ -165,7 +175,7 @@
 /******** Meet Our Team Section *******/
 
 .meet-our-team {
-    margin: 110px 350px;
+    margin: 0 170px 120px 170px;
 
     p {
         padding: 10px 0 0 0;
@@ -198,7 +208,7 @@
                 font-weight: 100;
                 font-size: 0.875em;
                 padding: 0 0 20px 0;
-                border-bottom: 1px solid;
+                border-bottom: 1px solid $color6;
             }
 
             .team-social-icons {

@@ -100,13 +100,13 @@ nav {
 /******** Buttons ********/
 
 .btn {
-    width: 160px;
-    height: 48px;
+    width: 10.6em;
+    height: 3em;
     font-size: 0.875em;
     padding: 10px 10px;
     background-color: $color1;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     transition: all 300ms ease-in-out;
     font-family: 'Poppins', sans-serif;
 
@@ -140,7 +140,7 @@ nav {
 }
 
 .revert-btn {
-    border: 1px solid $color2;
+    border: 1px solid $color6;
     background-color: transparent;
 }
 

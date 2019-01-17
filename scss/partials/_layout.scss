@@ -283,8 +283,62 @@
     }
 }
 
-.section {
-    height: 100vh;
+/******** Subscribe Section *******/
+
+.subscribe-section {
+   background: $color2;
+   padding: 72px 170px;
+   text-align: center;
+
+   .fa-paper-plane {
+        color: $color1;
+        padding: 0 1.250em 0 0;
+    }
+
+    p {
+        color: $color3;
+        font-weight: 600;
+        font-size: 1.250em;
+    }
+
+    .small-text {
+        font-size: 0.875em;
+        color: $color4;
+        font-weight: 300;
+    }
+
+    .email-container {
+        height: 30px;
+
+        button {
+            height: 40px;
+            width: 100px;
+            font-size: 1em;
+            cursor: pointer;
+            background-color: $color1;
+            color: $color2;
+            border: 1px solid $color1;
+            border-radius: 3px;
+            font-family: 'Poppins', sans-serif;
+            font-weight: 500;
+        }
+
+        input {
+            padding: 6px 15px;
+            font-size: 0.938em;
+            border: none;
+            background: #F9F9F9;
+            height: 40px;
+            width: 370px;
+            font-weight: 300;
+            border-radius: 3px;
+            color: $color3;
+            font-family: 'Poppins', sans-serif;
+            
+        }
+
+        
+    }
 }
 
 

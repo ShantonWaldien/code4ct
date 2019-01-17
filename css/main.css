@@ -352,7 +352,45 @@ nav {
         border: 2px solid #E69286;
         margin: 0 325px 0 0; }
 
-.section {
-  height: 100vh; }
+/******** Subscribe Section *******/
+.subscribe-section {
+  background: #FFFFFF;
+  padding: 72px 170px;
+  text-align: center; }
+  .subscribe-section .fa-paper-plane {
+    color: #E69286;
+    padding: 0 1.250em 0 0; }
+  .subscribe-section p {
+    color: #5B5B5B;
+    font-weight: 600;
+    font-size: 1.250em; }
+  .subscribe-section .small-text {
+    font-size: 0.875em;
+    color: #A4A5A5;
+    font-weight: 300; }
+  .subscribe-section .email-container {
+    height: 30px; }
+    .subscribe-section .email-container button {
+      height: 40px;
+      width: 100px;
+      font-size: 1em;
+      cursor: pointer;
+      background-color: #E69286;
+      color: #FFFFFF;
+      border: 1px solid #E69286;
+      border-radius: 3px;
+      font-family: 'Poppins', sans-serif;
+      font-weight: 500; }
+    .subscribe-section .email-container input {
+      padding: 6px 15px;
+      font-size: 0.938em;
+      border: none;
+      background: #F9F9F9;
+      height: 40px;
+      width: 370px;
+      font-weight: 300;
+      border-radius: 3px;
+      color: #5B5B5B;
+      font-family: 'Poppins', sans-serif; }
 
 /*# sourceMappingURL=main.css.map */

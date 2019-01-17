@@ -343,4 +343,7 @@ nav {
     .counter-section .stat-grid-container .stat-counter-item {
       background: red; }
 
+.section {
+  height: 100vh; }
+
 /*# sourceMappingURL=main.css.map */

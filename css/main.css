@@ -342,7 +342,15 @@ nav {
     grid-gap: 50px;
     padding: 110px 140px; }
     .counter-section .stat-grid-container .stat-counter-item {
-      background: red; }
+      color: #FFFFFF; }
+      .counter-section .stat-grid-container .stat-counter-item .count {
+        font-size: 1.875em; }
+      .counter-section .stat-grid-container .stat-counter-item p {
+        font-size: 1em;
+        margin: 0; }
+      .counter-section .stat-grid-container .stat-counter-item hr {
+        border: 2px solid #E69286;
+        margin: 0 325px 0 0; }
 
 .section {
   height: 100vh; }

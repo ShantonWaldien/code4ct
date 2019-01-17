@@ -260,8 +260,26 @@
         padding: 110px 140px;
 
         .stat-counter-item {
-            background: red;
+            color: $color2;
+
+            .count {
+                font-size: 1.875em;
+                // padding: 0 0 0 20px;
+            }
+
+            p {
+                font-size: 1em;
+                margin: 0;
+                // padding: 0 0 0 20px;
+            }
+
+            hr {
+                border: 2px solid #E69286;
+                margin: 0 325px 0 0;
+            }
         }
+
+        
     }
 }
 

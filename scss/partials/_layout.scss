@@ -31,13 +31,12 @@
 
 .who-we-are {
     height: auto;
-    padding: 120px 170px;
+    padding: 120px 140px;
 
     .who-we-are-grid-container {
         display: grid;
         grid-template-columns: auto auto;
         grid-gap: 30px;
-        margin-top: 10px;
     }
 
     .grid-item {
@@ -51,10 +50,10 @@
         p {
             color: $color4;
             font-size: 0.875em;
+            line-height: 1.86;
         }
 
         .btn {
-            margin-top: 60px;
             color: $color3;
 
             a {
@@ -64,11 +63,11 @@
 
         .revert-btn {
             border: 1px solid $color6;
+            margin: 35px 0 0 0;
 
             &:hover:after {
                 content: "\00bb";
                 color: $color4;
-                padding-left: 30px;
                 transition: 0.5s;
             }
         }
@@ -91,8 +90,8 @@
         }
 
         img {
-            width: 100%;
-            height: 100%;
+            width: 16.875em;
+            height: 13.313em;
         }
     }
 }
@@ -104,7 +103,7 @@
     background-color: $color5;
 
     .skill-icons-grid-container {
-        padding: 90px 170px;
+        padding: 70px 140px;
         display: grid;
         grid-gap: 25px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -135,7 +134,7 @@
 
 .courses-section {
     height: auto;
-    padding: 120px 170px;
+    padding: 120px 140px;
 
     p {
         color: $color4;
@@ -175,7 +174,11 @@
 /******** Meet Our Team Section *******/
 
 .meet-our-team {
-    margin: 0 170px 120px 170px;
+    margin: 0 140px 120px 140px;
+
+    .text {
+        padding: 10px 10em 0 0;
+    }
 
     p {
         padding: 10px 0 0 0;
@@ -192,9 +195,7 @@
         grid-gap: 30px;
 
         .grid-item-team {
-            padding: 15px 0 0 0;
-            width: 270px;
-            height: 250px;
+            // padding: 15px 0 0 0;
 
             .team-name {
                 margin: 0;
@@ -207,7 +208,7 @@
                 color: $color4;
                 font-weight: 100;
                 font-size: 0.875em;
-                padding: 0 0 20px 0;
+                padding: 0 0 1em 0;
                 border-bottom: 1px solid $color6;
             }
 
@@ -217,7 +218,7 @@
                 a {
                     text-decoration: none;
                     color: grey;
-                    font-size: 16px;
+                    font-size: 0.875em;
                     padding: 0 16px 0 0;
                     transition: all 300ms ease-in-out;
 
@@ -232,6 +233,12 @@
         .member {
             background-image: url(../img/person1.jpg);
             background-size: cover;
+            width: 16em;
+            height: 15em;
+        }
+
+        .bio {
+            padding: 10px 0 0 0;
         }
 
 
@@ -250,7 +257,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-gap: 50px;
-        padding: 110px 170px;
+        padding: 110px 140px;
 
         .stat-counter-item {
             background: red;

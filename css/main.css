@@ -108,8 +108,8 @@ nav {
 
 /******** Buttons ********/
 .btn {
-  width: 10.6em;
-  height: 3em;
+  width: 170px;
+  height: 48px;
   font-size: 0.875em;
   padding: 10px 10px;
   background-color: #E69286;
@@ -182,7 +182,7 @@ nav {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 25em 32em;
+  padding: 25em 560px;
   font-size: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -224,7 +224,7 @@ nav {
       color: #A4A5A5; }
   .who-we-are .grid-item .revert-btn {
     border: 1px solid #E8E8E8;
-    margin: 50px 0 0 0; }
+    margin: 125px 0 0 0; }
     .who-we-are .grid-item .revert-btn:hover:after {
       content: "\00bb";
       color: #A4A5A5;
@@ -249,7 +249,7 @@ nav {
   height: auto;
   background-color: #121212; }
   .skill-icons .skill-icons-grid-container {
-    padding: 100px 0;
+    padding: 90px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -281,7 +281,7 @@ nav {
   /**** Grid Container for Course content styling ****/ }
   .courses-section p {
     color: #A4A5A5;
-    margin: 30px 210px 102px 0;
+    margin: 30px 210px 100px 0;
     font-size: 0.875em; }
   .courses-section .our-exciting-courses {
     color: #5B5B5B;
@@ -289,7 +289,7 @@ nav {
   .courses-section .course-grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
-    grid-gap: 20px; }
+    grid-gap: 10px; }
     .courses-section .course-grid-container .course-item {
       width: 100%;
       height: 100%; }
@@ -422,5 +422,97 @@ nav {
   background: #121212;
   height: 200px;
   padding: 120px 375px; }
+
+/* Slider */
+.slick-slide {
+  margin: 0px 20px; }
+
+.slick-slide img {
+  width: 100%; }
+
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent; }
+
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0; }
+
+.slick-list:focus {
+  outline: none; }
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand; }
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  -o-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block; }
+
+.slick-track:before,
+.slick-track:after {
+  display: table;
+  content: ''; }
+
+.slick-track:after {
+  clear: both; }
+
+.slick-loading .slick-track {
+  visibility: hidden; }
+
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px; }
+
+[dir='rtl'] .slick-slide {
+  float: right; }
+
+.slick-slide img {
+  display: block; }
+
+.slick-slide.slick-loading img {
+  display: none; }
+
+.slick-slide.dragging img {
+  pointer-events: none; }
+
+.slick-initialized .slick-slide {
+  display: block; }
+
+.slick-loading .slick-slide {
+  visibility: hidden; }
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent; }
+
+.slick-arrow.slick-hidden {
+  display: none; }
 
 /*# sourceMappingURL=main.css.map */

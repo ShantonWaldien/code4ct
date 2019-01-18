@@ -263,7 +263,7 @@ nav {
 /******** Courses Section *******/
 .courses-section {
   height: auto;
-  padding: 120px 375px;
+  padding: 100px 375px;
   /**** Grid Container for Course content styling ****/ }
   .courses-section p {
     color: #A4A5A5;

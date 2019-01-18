@@ -4,7 +4,7 @@
 
 .intro {
     text-align: center;
-    padding: 17em 23em;
+    padding: 25em 32em;
     font-size: 15px;    
 
     .code-4-ct {
@@ -31,7 +31,7 @@
 
 .who-we-are {
     height: auto;
-    padding: 120px 140px;
+    padding: 120px 375px;
 
     .who-we-are-grid-container {
         display: grid;
@@ -63,7 +63,7 @@
 
         .revert-btn {
             border: 1px solid $color6;
-            margin: 35px 0 0 0;
+            margin: 50px 0 0 0;
 
             &:hover:after {
                 content: "\00bb";
@@ -103,7 +103,7 @@
     background-color: $color5;
 
     .skill-icons-grid-container {
-        padding: 70px 140px;
+        padding: 120px 375px;
         display: grid;
         grid-gap: 25px;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -134,7 +134,7 @@
 
 .courses-section {
     height: auto;
-    padding: 120px 140px;
+    padding: 120px 375px;
 
     p {
         color: $color4;
@@ -174,7 +174,7 @@
 /******** Meet Our Team Section *******/
 
 .meet-our-team {
-    margin: 0 140px 120px 140px;
+    margin: 0 375px 120px 375px;
 
     .text {
         padding: 10px 10em 0 0;
@@ -255,9 +255,8 @@
 
     .stat-grid-container {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        grid-gap: 50px;
-        padding: 110px 140px;
+        grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+        padding: 110px 490px;
 
         .stat-counter-item {
             color: $color2;
@@ -275,7 +274,7 @@
 
             hr {
                 border: 2px solid #E69286;
-                margin: 0 325px 0 0;
+                margin: 0 200px 0 0;
             }
         }
 

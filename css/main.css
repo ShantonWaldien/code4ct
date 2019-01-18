@@ -182,7 +182,7 @@ nav {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 17em 23em;
+  padding: 25em 32em;
   font-size: 15px; }
   .intro .code-4-ct {
     color: #FFFFFF;
@@ -199,7 +199,7 @@ nav {
 /***** Who We are Section *****/
 .who-we-are {
   height: auto;
-  padding: 120px 140px; }
+  padding: 120px 375px; }
   .who-we-are .who-we-are-grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -218,7 +218,7 @@ nav {
       color: #A4A5A5; }
   .who-we-are .grid-item .revert-btn {
     border: 1px solid #E8E8E8;
-    margin: 35px 0 0 0; }
+    margin: 50px 0 0 0; }
     .who-we-are .grid-item .revert-btn:hover:after {
       content: "\00bb";
       color: #A4A5A5;
@@ -243,7 +243,7 @@ nav {
   height: auto;
   background-color: #121212; }
   .skill-icons .skill-icons-grid-container {
-    padding: 70px 140px;
+    padding: 120px 375px;
     display: grid;
     grid-gap: 25px;
     grid-template-columns: 1fr 1fr 1fr 1fr; }
@@ -263,7 +263,7 @@ nav {
 /******** Courses Section *******/
 .courses-section {
   height: auto;
-  padding: 120px 140px;
+  padding: 120px 375px;
   /**** Grid Container for Course content styling ****/ }
   .courses-section p {
     color: #A4A5A5;
@@ -288,7 +288,7 @@ nav {
 
 /******** Meet Our Team Section *******/
 .meet-our-team {
-  margin: 0 140px 120px 140px; }
+  margin: 0 375px 120px 375px; }
   .meet-our-team .text {
     padding: 10px 10em 0 0; }
   .meet-our-team p {
@@ -338,9 +338,8 @@ nav {
   height: 300px; }
   .counter-section .stat-grid-container {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 50px;
-    padding: 110px 140px; }
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    padding: 110px 490px; }
     .counter-section .stat-grid-container .stat-counter-item {
       color: #FFFFFF; }
       .counter-section .stat-grid-container .stat-counter-item .count {
@@ -350,7 +349,7 @@ nav {
         margin: 0; }
       .counter-section .stat-grid-container .stat-counter-item hr {
         border: 2px solid #E69286;
-        margin: 0 325px 0 0; }
+        margin: 0 200px 0 0; }
 
 /******** Subscribe Section *******/
 .subscribe-section {

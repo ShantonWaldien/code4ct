@@ -186,7 +186,6 @@ nav {
   font-size: 15px;
   margin-right: auto;
   margin-left: auto;
-  max-width: 1400px;
   height: 100%; }
   .intro .code-4-ct {
     color: #FFFFFF;
@@ -250,7 +249,7 @@ nav {
   height: auto;
   background-color: #121212; }
   .skill-icons .skill-icons-grid-container {
-    padding: 120px 0;
+    padding: 100px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -303,7 +302,7 @@ nav {
 
 /******** Meet Our Team Section *******/
 .meet-our-team {
-  padding: 120px 0;
+  padding: 0 0 120px 0;
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
@@ -352,16 +351,16 @@ nav {
 
 /******** Counter Section *******/
 .counter-section {
-  background-color: #121212;
-  height: 300px;
-  margin-right: auto;
-  margin-left: auto;
-  max-width: 1400px;
-  height: 100%; }
+  background-color: #121212; }
   .counter-section .stat-grid-container {
     display: grid;
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-    padding: 120px 0; }
+    padding: 120px 100px;
+    height: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    height: 100%; }
     .counter-section .stat-grid-container .stat-counter-item {
       color: #FFFFFF; }
       .counter-section .stat-grid-container .stat-counter-item .count {

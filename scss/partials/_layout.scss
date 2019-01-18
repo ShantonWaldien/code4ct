@@ -8,7 +8,6 @@
     font-size: 15px; 
     margin-right: auto;
     margin-left: auto;
-    max-width: 1400px;
     height: 100%;   
 
     .code-4-ct {
@@ -112,7 +111,7 @@
 
     .skill-icons-grid-container {
         // padding: 120px 375px;
-        padding: 120px 0;
+        padding: 100px 0;
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -193,7 +192,7 @@
 
 .meet-our-team {
     // margin: 0 375px 120px 375px;
-    padding: 120px 0;
+    padding: 0 0 120px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -273,18 +272,16 @@
 
 .counter-section {
     background-color: $color5;
-    // width: 100%;
-    height: 300px;
-    margin-right: auto;
-    margin-left: auto;
-    max-width: 1400px;
-    height: 100%;
 
     .stat-grid-container {
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-        // padding: 110px 490px;
-        padding: 120px 0;
+        padding: 120px 100px;
+        height: 300px;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 1400px;
+        height: 100%;
 
         .stat-counter-item {
             color: $color2;

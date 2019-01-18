@@ -202,6 +202,7 @@ nav {
 
 /***** Who We are Section *****/
 .who-we-are {
+  padding: 120px 0;
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
@@ -249,6 +250,7 @@ nav {
   height: auto;
   background-color: #121212; }
   .skill-icons .skill-icons-grid-container {
+    padding: 120px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -272,6 +274,7 @@ nav {
 /******** Courses Section *******/
 .courses-section {
   height: auto;
+  padding: 120px 0;
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
@@ -300,6 +303,7 @@ nav {
 
 /******** Meet Our Team Section *******/
 .meet-our-team {
+  padding: 120px 0;
   margin-right: auto;
   margin-left: auto;
   max-width: 1400px;
@@ -356,7 +360,8 @@ nav {
   height: 100%; }
   .counter-section .stat-grid-container {
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr; }
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    padding: 120px 0; }
     .counter-section .stat-grid-container .stat-counter-item {
       color: #FFFFFF; }
       .counter-section .stat-grid-container .stat-counter-item .count {
@@ -371,6 +376,7 @@ nav {
 /******** Subscribe Section *******/
 .subscribe-section {
   background: #FFFFFF;
+  padding: 120px 0;
   text-align: center;
   margin-right: auto;
   margin-left: auto;

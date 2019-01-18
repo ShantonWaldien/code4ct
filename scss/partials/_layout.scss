@@ -35,7 +35,7 @@
 
 .who-we-are {
     // height: auto;
-    // padding: 120px 375px;
+    padding: 120px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -112,6 +112,7 @@
 
     .skill-icons-grid-container {
         // padding: 120px 375px;
+        padding: 120px 0;
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -147,6 +148,7 @@
 .courses-section {
     height: auto;
     // padding: 100px 375px;
+    padding: 120px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -191,6 +193,7 @@
 
 .meet-our-team {
     // margin: 0 375px 120px 375px;
+    padding: 120px 0;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -281,6 +284,7 @@
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         // padding: 110px 490px;
+        padding: 120px 0;
 
         .stat-counter-item {
             color: $color2;
@@ -311,6 +315,7 @@
 .subscribe-section {
    background: $color2;
 //    padding: 72px 170px;
+padding: 120px 0;
    text-align: center;
    margin-right: auto;
     margin-left: auto;

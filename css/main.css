@@ -420,8 +420,12 @@ nav {
 /******** Sponsor Logo Carousel Section *******/
 .logo-section {
   background: #121212;
-  height: 200px;
-  padding: 120px 375px; }
+  padding: 60px 0; }
+  .logo-section .logo-carousel {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    height: 100%; }
 
 /* Slider */
 .slick-slide {
@@ -486,8 +490,7 @@ nav {
 .slick-slide {
   display: none;
   float: left;
-  height: 100%;
-  min-height: 1px; }
+  height: 100%; }
 
 [dir='rtl'] .slick-slide {
   float: right; }
@@ -514,5 +517,8 @@ nav {
 
 .slick-arrow.slick-hidden {
   display: none; }
+
+.section {
+  height: 100vh; }
 
 /*# sourceMappingURL=main.css.map */

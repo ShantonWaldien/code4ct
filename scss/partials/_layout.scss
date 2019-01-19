@@ -191,7 +191,6 @@
 /******** Meet Our Team Section *******/
 
 .meet-our-team {
-    // margin: 0 375px 120px 375px;
     padding: 0 0 120px 0;
     margin-right: auto;
     margin-left: auto;
@@ -277,7 +276,6 @@
         display: grid;
         grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
         padding: 120px 100px;
-        height: 300px;
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -285,6 +283,7 @@
 
         .stat-counter-item {
             color: $color2;
+            padding: 0 0 0 60px;
 
             .count {
                 font-size: 1.875em;
@@ -504,8 +503,7 @@
 }
 
 
-// @media only screen and (max-width: 960px) {
-//     .who-we-are{
-//         padding: 120px 10px
-//     }
+
+// @media (min-width:768px) and (max-width:1366) {
+
 // }

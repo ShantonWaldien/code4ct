@@ -310,11 +310,10 @@
 /******** Subscribe Section *******/
 
 .subscribe-section {
-   background: $color2;
-//    padding: 72px 170px;
-padding: 120px 0;
-   text-align: center;
-   margin-right: auto;
+    background: $color2;
+    padding: 110px 0;
+    text-align: center;
+    margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
     height: 100%;
@@ -328,6 +327,7 @@ padding: 120px 0;
         color: $color3;
         font-weight: 600;
         font-size: 1.250em;
+        margin: 0;
     }
 
     .small-text {
@@ -337,7 +337,6 @@ padding: 120px 0;
     }
 
     .email-container {
-        height: 30px;
 
         button {
             height: 40px;

@@ -375,7 +375,7 @@ nav {
 /******** Subscribe Section *******/
 .subscribe-section {
   background: #FFFFFF;
-  padding: 120px 0;
+  padding: 110px 0;
   text-align: center;
   margin-right: auto;
   margin-left: auto;
@@ -387,35 +387,34 @@ nav {
   .subscribe-section p {
     color: #5B5B5B;
     font-weight: 600;
-    font-size: 1.250em; }
+    font-size: 1.250em;
+    margin: 0; }
   .subscribe-section .small-text {
     font-size: 0.875em;
     color: #A4A5A5;
     font-weight: 300; }
-  .subscribe-section .email-container {
-    height: 30px; }
-    .subscribe-section .email-container button {
-      height: 40px;
-      width: 100px;
-      font-size: 1em;
-      cursor: pointer;
-      background-color: #E69286;
-      color: #FFFFFF;
-      border: 1px solid #E69286;
-      border-radius: 3px;
-      font-family: 'Poppins', sans-serif;
-      font-weight: 500; }
-    .subscribe-section .email-container input {
-      padding: 6px 15px;
-      font-size: 0.938em;
-      border: none;
-      background: #F9F9F9;
-      height: 40px;
-      width: 370px;
-      font-weight: 300;
-      border-radius: 3px;
-      color: #5B5B5B;
-      font-family: 'Poppins', sans-serif; }
+  .subscribe-section .email-container button {
+    height: 40px;
+    width: 100px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #E69286;
+    color: #FFFFFF;
+    border: 1px solid #E69286;
+    border-radius: 3px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500; }
+  .subscribe-section .email-container input {
+    padding: 6px 15px;
+    font-size: 0.938em;
+    border: none;
+    background: #F9F9F9;
+    height: 40px;
+    width: 370px;
+    font-weight: 300;
+    border-radius: 3px;
+    color: #5B5B5B;
+    font-family: 'Poppins', sans-serif; }
 
 /******** Sponsor Logo Carousel Section *******/
 .logo-section {

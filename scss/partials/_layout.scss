@@ -164,6 +164,10 @@
         margin-top: 0;
     }
 
+    .line-grid-container {
+        margin: 0 1040px 0 0;
+    }
+
     /**** Grid Container for Course content styling ****/
 
     .course-grid-container {
@@ -207,6 +211,10 @@
         font-weight: 100;
         font-size: 0.875em;
         line-height: 1.86;
+    }
+
+    .line-grid-container {
+        margin: 0 1040px 0 0;
     }
 
     .team-grid-container {
@@ -506,14 +514,14 @@
 
 /*** Intro starts here ***/
 
-.intro-contact {
+.intro-other {
     text-align: center;
     padding: 130px 560px;
     font-size: 1.563em;
     background: $color6;
     margin: 70px 0 0 0;
 
-    .contact {
+    .page-heading {
         color: $color3;
     }
 
@@ -614,9 +622,77 @@
             transition: all 300ms ease-in-out;
             margin: 4px 15px 4px 0;
         }
+
+        .line-grid-container {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr;
+            margin: 0 500px 0 0;
+        
+            .line-item-1 {
+                background-color: $color1;
+                height: 2px;
+            }
+        
+            .line-item-2 {
+                background-color: $color4;
+                height: 1px;
+            }
+        }
+    }
+
+    .line {
+        .line-grid-container {
+            display: grid;
+            grid-template-columns: 0.5fr 1fr;
+            margin: 0 145px 0 0;
+        
+            .line-item-1 {
+                background-color: $color1;
+                height: 2px;
+            }
+        
+            .line-item-2 {
+                background-color: $color4;
+                height: 1px;
+            }
+        }
     }
 
     
+}
+
+
+/******** Portofolio Page Layout Styling *******/
+
+
+.portofolio-intro {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1400px;
+    height: 100%;
+    text-align: center;
+    padding: 120px;
+
+    .line-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 0.5fr 1fr;
+        margin: 0 430px 0 430px;
+
+        .line-item-1 {
+            background-color: $color4;
+            height: 1px;
+        }
+
+        .line-item-2 {
+            background-color: $color1;
+            height: 2px;
+        }
+
+        .line-item-3 {
+            background-color: $color4;
+            height: 1px;
+        }
+    }
 }
 
 

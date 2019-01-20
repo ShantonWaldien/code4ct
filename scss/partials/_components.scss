@@ -173,28 +173,19 @@ nav {
 
 /**** line styles ****/
 
-.lines {
-    list-style: none;
-    width: 55%;
-    font-size: 0;
-    margin: 0 0 0 -35px;
+.line-grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    margin: 0 440px 0 0;
 
-    li {
-        display: inline-block;
-        width: 7%;
-        height: 2.5px;
-        margin-left: -5px;
+    .line-item-1 {
+        background-color: $color1;
+        height: 2px;
     }
 
-    li:nth-child(1) {
-        background: $color1;
-    }
-      
-      li:nth-child(2) {
-        background: rgba(91, 91, 91, 0.363);
+    .line-item-2 {
+        background-color: $color4;
         height: 1px;
-        margin-bottom: 0.6px;
-        width: 30%;
     }
 }
 

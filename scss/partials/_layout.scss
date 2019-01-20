@@ -4,7 +4,7 @@
 
 .intro {
     text-align: center;
-    padding: 25em 560px;
+    padding: 25em 29%;
     font-size: 15px; 
     margin-right: auto;
     margin-left: auto;
@@ -500,6 +500,32 @@
 
 .section {
     height: 100vh;
+}
+
+/******** Contact Page Layout Styling *******/
+
+/*** Intro starts here ***/
+
+.intro-contact {
+    text-align: center;
+    padding: 130px 560px;
+    font-size: 1.563em;
+    background: $color6;
+    margin: 70px 0 0 0;
+
+    .contact {
+        color: $color3;
+    }
+
+    p {
+        font-size: 0.875em;
+        color: $color3;
+        font-weight: 500;
+
+        span {
+            color: $color1;
+        }
+    }
 }
 
 

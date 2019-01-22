@@ -724,4 +724,22 @@ nav {
       height: auto !important;
       background-color: #5B5B5B; }
 
+/******** About Page Layout Styling *******/
+.about-us-grid-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 120px 0;
+  grid-gap: 50px; }
+  .about-us-grid-container .about-us-item .line-grid-container {
+    margin: 0 415px 0 0; }
+  .about-us-grid-container .about-us-item p {
+    color: #A4A5A5;
+    padding: 60px 0; }
+  .about-us-grid-container .about-image img {
+    width: 100%; }
+
 /*# sourceMappingURL=main.css.map */

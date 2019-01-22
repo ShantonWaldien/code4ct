@@ -750,6 +750,94 @@
     }
 }
 
+/***  who we are container Styling ***/
+
+.who-we-are-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 120px;
+
+    .who-we-are-item {
+        background-color: #FAFAFA;
+
+        img {
+            width: 910px;
+            height: 100%;
+        }
+
+        p {
+            color: $color4;
+            font-size: 14px;
+            font-weight: 300;
+        }
+
+    }
+
+    .content-text {
+        padding: 60px;
+    }
+
+    .line-grid-container {
+        margin: 0 540px 0 0;
+    }
+
+    h2 {
+        color: $color1;
+        padding: 60px 0 0 0;
+        font-size: 16px;
+    }
+
+
+}
+
+/***  Circular Counter Styling ***/
+
+// #bars {
+// 	max-width: 100%;
+//     overflow: hidden;
+//     background-color: $color5;
+//     padding: 70px 265px;
+// }
+
+// .bar {
+// 	float: left;
+// 	width: 20%;
+// 	text-align: center;
+// }
+
+// .bar h3 {
+// 	font-size: 1.4em;
+// 	font-weight: normal;
+// 	margin: 0;
+// 	text-transform: uppercase;
+// }
+
+// .bar-circle {
+//     height: 120px;
+// 	display: block;
+// 	margin: 0.7em 80px 0 80px;
+// }
+
+// .counter-title {
+//     color: $color2;
+//     font-weight: 500;
+//     padding: 10px 0 0 0;
+// }
+
+// .counter-info {
+//     font-size: 14px;
+// }
+
+.circle-counter-grid {
+    margin-right: auto;
+    margin-left: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: $color5;
+
+}
+
 
 
 // @media (min-width:768px) and (max-width:1366) {

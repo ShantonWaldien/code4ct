@@ -742,4 +742,36 @@ nav {
   .about-us-grid-container .about-image img {
     width: 100%; }
 
+/***  who we are container Styling ***/
+.who-we-are-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 120px; }
+  .who-we-are-container .who-we-are-item {
+    background-color: #FAFAFA; }
+    .who-we-are-container .who-we-are-item img {
+      width: 910px;
+      height: 100%; }
+    .who-we-are-container .who-we-are-item p {
+      color: #A4A5A5;
+      font-size: 14px;
+      font-weight: 300; }
+  .who-we-are-container .content-text {
+    padding: 60px; }
+  .who-we-are-container .line-grid-container {
+    margin: 0 540px 0 0; }
+  .who-we-are-container h2 {
+    color: #E69286;
+    padding: 60px 0 0 0;
+    font-size: 16px; }
+
+/***  Circular Counter Styling ***/
+.circle-counter-grid {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  background-color: #121212; }
+
 /*# sourceMappingURL=main.css.map */

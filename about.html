@@ -11,6 +11,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="js/jquery.circlechart.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.1.3/circle-progress.min.js"></script>
 </head>
 <body>
 
@@ -237,45 +239,185 @@
 
     <!-- Circular Counter  -->
 
-    <!-- <div id="bars">
+    <div id="bars">
 
-        <div class="bar" data-percent="85">
-            <canvas class="bar-circle" width="70" height="70"></canvas>
-            
-            <h2 class="counter-title">Further Studies</h2>
-            <p class="counter-info">Lorem ipsum dolor sit amet consectetur adipisicing elit.  </p>
-        </div>
-        <div class="bar" data-percent="90">
-            <canvas class="bar-circle" width="70" height="70"></canvas>
-            
-        </div>
-        <div class="bar" data-percent="80">
-            <canvas class="bar-circle" width="70" height="70"></canvas>
-        </div>
-        <div class="bar" data-percent="97">
-            <canvas class="bar-circle" width="70" height="70"></canvas>
+        <div class="circle-progress-bar-container">
+
+            <div class="circle" id="circle-a">
+
+                <strong>85%</strong>
+
+                <h2>Further Studies</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis obcaecati eius, beatae esse voluptates.</p>
+
+            </div>
+            <div class="circle" id="circle-b">
+
+                <strong>90%</strong>
+
+                <h2>STEM Related</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis obcaecati eius, beatae esse voluptates.</p>
+
+            </div>
+            <div class="circle" id="circle-c">
+                
+                <strong>80%</strong>
+
+                <h2>At University</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis obcaecati eius, beatae esse voluptates.</p>
+
+            </div>
+            <div class="circle" id="circle-d">
+                
+                <strong>97%</strong>
+
+                <h2>IT Dev Skills</h2>
+
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perferendis obcaecati eius, beatae esse voluptates.</p>
+
+            </div>
+
         </div>
 
-    </div> -->
-
-    <div class="circle-counter-grid">
-        <div class="demo-2" data-percent="65"></div>
     </div>
 
-    <script>
-          
-        $('.demo-2').percentcircle({
-            animate : false,
-            diameter : 100,
-            guage: 3,
-            coverBg: '#fff',
-            bgColor: '#efefef',
-            fillColor: '#E95546',
-            percentSize: '15px',
-            percentWeight: 'normal'
-        });
+    <!-- Subscribe Section -->
 
-    </script>
+    <div class="subscribe-section">
+
+        <p><i class="fas fa-paper-plane"></i> SUBSCRIBE TO US</p>
+
+        <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe hic distinctio natus</p>
+
+        <div class="email-container">
+            <form action=" / ">
+                <input type="text" placeholder="enter your email" name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+
+    <!-- Sponsor Logo Carousel Section -->
+
+    <div class="logo-section">
+
+        <section class="logo-carousel slider">
+
+            <div class="slide"><img src="img/Code4CT-Partners-Automattic-Logo.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-CSG-Logo.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Deloitte-Digital.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Lwande.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Mobenzi-Logo.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Open-Box.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Saratoga-Logo.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-TNS.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-Take-A-Lot-Logo-1.png"></div>
+            <div class="slide"><img src="img/Code4CT-Partners-US-Department-Of-State-Logo.png"></div>
+            <div class="slide"><img src="img/Code4ct-Partners-WeTech.png"></div>
+            <div class="slide"><img src="img/Code4ct-Partners-Where-Is-My-Transport.png"></div>
+            <div class="slide"><img src="img/DGMurrayTrust-1.png"></div>
+            <div class="slide"><img src="img/partner_capitec-1.png"></div>
+            <div class="slide"><img src="img/partner_google-1.png"></div>
+            
+        </section>
+        
+    </div>
+
+    <!-- Footer -->
+
+    <div class="footer-section">
+
+        <!-- Footer Grid Container -->
+
+        <div class="footer-grid-container">
+
+            <div class="footer-item">
+
+                <p class="small-text">Lorem ipsum dolor sit amet consectetur adipisicing </p>
+
+                <p class="icon"><i class="fas fa-phone"></i>+(000)00-000-0000</p>
+                <p class="icon"><i class="fas fa-envelope"></i>youremail@company.com</p>
+                <p class="icon"><i class="fas fa-map-marker-alt"></i>Physcial address</p>
+
+            </div>
+
+            <div class="footer-item">
+
+                <p>Company</p>
+
+                <ul>
+
+                    <li>About us</li>
+                    <li>Contact us</li>
+                    <li>Blog</li>
+                    <li>Testimonials</li>
+                    <li>Affiliate program</li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-item">
+
+                    <p>Help & Support</p>
+    
+                    <ul>
+    
+                        <li>Help centre</li>
+                        <li>Free simple template</li>
+                        <li>Refund policy</li>
+                        <li>Report span</li>
+    
+                    </ul>
+    
+            </div>
+
+            <div class="footer-item">
+
+                <p>Courses</p>
+    
+                <ul>
+    
+                    <li>Intro to Web Pages</li>
+                    <li>Beginner JavaScript</li>
+                    <li>Codestorm</li>
+                    <li>Fullstack JavaScript</li>
+    
+                </ul>
+    
+            </div>   
+
+        </div>
+
+    </div>
+
+    <!-- Copyright Section -->
+
+    <div class="copyright">
+
+        <div class="copyright-container">
+
+            <span>copyright <i class="far fa-copyright"></i> 2017 PRIVACY POLICY</span>
+
+            <span class="right">Follow us : </span> 
+            
+            <a href=""><i class="fab fa-facebook-f"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-pinterest-p"></i> </a>
+            <a href=""><i class="fab fa-google-plus"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+            <a href=""><i class="fab fa-skype"></i></a>
+
+        </div>
+
+    </div>
+
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+
 </body>
 </html>

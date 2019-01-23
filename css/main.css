@@ -66,6 +66,8 @@ nav {
     padding: 15px 8px; }
     nav .nav-item:hover {
       color: #E69286; }
+    nav .nav-item:active {
+      color: #E69286; }
   nav li {
     text-transform: uppercase;
     width: auto;

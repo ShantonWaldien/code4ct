@@ -110,10 +110,3 @@ $('#circle-d').circleProgress({
 		color: '#E69286'
 }
 });
-
-// Dynamic active state on navbar
-
-$(document).ready(function($){
-	var url = location.href;
-	$('.nav li a[href="index.html'+url+'"]').addClass('active');
-});

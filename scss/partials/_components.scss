@@ -42,10 +42,8 @@ nav {
             color: $color1;
         }
 
-        &:active {
-            color: $color1;
-        }
     }
+
 
     li {
         text-transform: uppercase;
@@ -252,6 +250,11 @@ nav {
                 border-radius: 4px;
                 transition: all 300ms ease-in-out;
                 margin: 4px 15px 4px 0;
+
+                &:hover {
+                    color: $color1;
+                    border: 0.5px solid $color1;
+                }
             }
             
         }

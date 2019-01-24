@@ -850,10 +850,12 @@
     padding: 120px 0;
     font-family: 'Poppins', sans-serif;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
 
     .course-content {
         color: $color3;
+        width: 100%;
 
         h5 {
             color: $color1;
@@ -867,44 +869,50 @@
             color: $color1;
         }
 
-        .add-to-cart-btn {
-            width: 170px;
-            height: 48px;
-            font-size: 0.875em;
-            padding: 10px 10px;
-            background-color: $color1;
-            border: none;
-            border-radius: 4px;
-            transition: all 300ms ease-in-out;
-            font-family: 'Poppins', sans-serif;
+        .cart-btn {
+            margin: 10px auto;
 
-            &:hover {
-                padding: 10px 50px 10px 15px;
-                width: 200px;    
-            }
-        
-            &:hover:after {
-                content: "\00bb";
-                color: $color2;
-                padding-left: 10px;
-                transition: 0.5s;
-            }
-        
-            a {
-                text-decoration: none;
-                color: $color2;
-            }       
-        
-            .arrow-right {
-                font-size: 15px;
-                padding-left: 15px; 
-                display: none;
-        
-                &:hover  {
-                    display: block;
+            .add-to-cart-btn {
+                width: 170px;
+                height: 48px;
+                font-size: 0.875em;
+                padding: 10px 10px;
+                background-color: $color1;
+                border: none;
+                border-radius: 4px;
+                transition: all 300ms ease-in-out;
+                font-family: 'Poppins', sans-serif;
+    
+                &:hover {
+                    padding: 10px 50px 10px 15px;
+                    width: 200px;    
+                }
+            
+                &:hover:after {
+                    content: "\00bb";
+                    color: $color2;
+                    padding-left: 10px;
+                    transition: 0.5s;
+                }
+            
+                a {
+                    text-decoration: none;
+                    color: $color2;
+                }       
+            
+                .arrow-right {
+                    font-size: 15px;
+                    padding-left: 15px; 
+                    display: none;
+            
+                    &:hover  {
+                        display: block;
+                    }
                 }
             }
         }
+
+        
         
     }
 }

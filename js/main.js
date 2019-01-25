@@ -75,38 +75,3 @@ $(document).ready(function(){
   });
 });
 
-/**** Circle Progress Bar Function *****/
-
-var progressBarOptions = {
-	startAngle: 5.55,
-	size: 100,
-    value: 0.85,
-    fill: {
-		color: '#E69286'
-	}
-}
-
-$('.circle').circleProgress(progressBarOptions).on('circle-animation-progress', function(event, progress, stepValue) {
-	//$(this).find('strong').text(String(stepValue.toFixed(2)).substr(1));
-});
-
-$('#circle-b').circleProgress({
-	value : 0.90,
-	fill: {
-		color: '#E69286'
-	}
-});
-
-$('#circle-c').circleProgress({
-	value : 0.80,
-	fill: {
-		color: '#E69286'
-	}
-});
-
-$('#circle-d').circleProgress({
-	value : 0.97,
-	fill: {
-		color: '#E69286'
-}
-});

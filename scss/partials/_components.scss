@@ -209,6 +209,15 @@ nav {
         .footer-item {
             text-align: left;
 
+            a {
+                text-decoration: none;
+                color: $color3;
+
+                &:hover {
+                    color: $color1;
+                }
+            }
+
             p {
                 color: $color3;
                 font-size: 16px;

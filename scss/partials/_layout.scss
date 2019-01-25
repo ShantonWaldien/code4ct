@@ -34,7 +34,7 @@
 
 .who-we-are {
     // height: auto;
-    padding: 120px 10px;
+    padding: 120px 30px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -111,7 +111,7 @@
 
     .skill-icons-grid-container {
         // padding: 120px 375px;
-        padding: 90px 0;
+        padding: 90px 30px;
         margin-right: auto;
         margin-left: auto;
         max-width: 1400px;
@@ -147,7 +147,7 @@
 .courses-section {
     height: auto;
     // padding: 100px 375px;
-    padding: 120px 0;
+    padding: 120px 30px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -195,7 +195,7 @@
 /******** Meet Our Team Section *******/
 
 .meet-our-team {
-    padding: 0 0 120px 0;
+    padding: 0 30px 120px 30px;
     margin-right: auto;
     margin-left: auto;
     max-width: 1400px;
@@ -516,7 +516,7 @@
 
 .intro-other {
     text-align: center;
-    padding: 130px 560px;
+    padding: 130px 100px;
     font-size: 1.563em;
     background: $color6;
     margin: 70px 0 0 0;
@@ -543,7 +543,7 @@
     margin-left: auto;
     max-width: 1400px;
     height: 100%;
-    padding: 120px 0 120px 0;
+    padding: 120px 30px 120px 30px;
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-gap: 30px;
@@ -911,8 +911,6 @@
                 }
             }
         }
-
-        
         
     }
 }

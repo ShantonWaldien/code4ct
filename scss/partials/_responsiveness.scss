@@ -4,9 +4,156 @@
         'partials/_layout';
 
 
-@media (min-width:768px) and (max-width:1366) {
+// @media (min-width:768px) and (max-width:1366) {
     
-    .who-we-are {
+//     .who-we-are {
         
+//     }
+// }
+
+/***** Contact Page Responsive Build *****/
+
+@media screen and (max-width: 1318px) {
+    
+    .contact-form-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 1178px) {
+
+    nav {
+
+        .logo {
+            float: none;
+        }
+
+        ul {
+            padding: 10px 0 0 160px; 
+            .nav-item {
+                display: grid;
+                text-align: center;
+                margin: auto auto;
+            }
+        }
+
+        .search-container {
+            float: none;
+            margin-left: 0;
+            height: auto;
+
+            input {
+                margin: 0;
+            }
+
+            button {
+                float: none;
+            }
+        }
+    }
+    
+    .intro-other {
+        padding: 380px 100px 100px
+    }
+
+    .contact-form-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-section {
+        
+        .footer-grid-container {
+            grid-template-columns: 1fr 1fr;
+        }
+
+    }
+
+    .copyright {
+
+        .copyright-container {
+
+            .right {
+                padding-left: 100px;
+            }
+        }
+    }
+
+    .contact-form-grid {
+
+        .contact-form-item {
+
+            .message {
+                width: 100%;
+            }
+        }
+    }
+
+    .footer-section {
+        padding: 90px;
+
+        .footer-grid-container {
+
+            .footer-item {
+                padding-left: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 902px) {
+
+    .contact-form-grid {
+
+        .contact-form-item {
+
+            input {
+                display: block;
+                width: 100%;
+            }
+
+            .phone  {
+                margin-left: 0;
+            }
+
+            .email {
+                margin-left: 0;
+            }
+            
+        }
+    }
+
+    .footer-section {
+        padding: 50px;
+
+        .footer-grid-container {
+
+            .footer-item {
+                padding-left: 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 724px) {
+
+    .footer-section {
+        padding: 50px;
+
+        .footer-grid-container {
+            grid-template-columns: 1fr;
+
+            .footer-item {
+                margin: auto auto;
+                padding-left: 100px;
+            }
+        }
+    }
+
+}
+
+@media screen and (max-width: 724px) {
+
+    .contact-form-grid {
+        display: block;
     }
 }

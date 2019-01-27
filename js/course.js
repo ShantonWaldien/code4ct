@@ -72,10 +72,9 @@
 
 
 let cart = [
-   { name: 'Intro to Coding', description: 'Code a simple one-page website using HTML and JQuery. ', price: 250, duration: ' 3 hours '},
-   { name: 'Intro to Coding', description: 'Code a simple one-page website using HTML and JQuery. ', price: 250, duration: ' 3 hours '},
-   
-   
+   { name: 'Intro to Coding', title: 'Web Pages',  description: 'Code a simple one-page website using HTML and JQuery.', duration: ' 3 hours ', price: 250, },
+   { name: 'Create with Code', title: 'Web Pages', description: 'Learn how the internet works and code a simple one-page website using HTML, CSS and JQuery', duration: ' 3 days ', price: 960, },
+   { name: 'Getting Started', title: 'Web Pages', description: 'Learn how to set up a development environment and practical skills to start coding.', duration: ' 3 hours ', price: 250, },
 ];
 
 var globalCounter = 0;
@@ -84,7 +83,7 @@ for (var i = 0; i < Object.keys(cart).length; i++) {
    var tr = "<tr>";
    if (cart[i].price.toString().substring(cart[i].price.toString().indexOf('.'), cart[i].price.toString().length) < 2) cart[i].price += "0";
 
-   tr += "<td>" + cart[i].name + "</td>" + "<td>" + cart[i].description + "Duration: " + cart[i].duration + "R" + cart[i].price.toString() + "<button id='addTo' onclick='add()'>+ Add to Cart" + "</button>" + "<button id='remove' onclick='remove()' value=''>- Remove from Cart" + "</button></tr>" + "</td>" 
+   tr += "<td>" + cart[i].name + "</td>" + "<td>" + cart[i].title + "<td>" +  cart[i].description  + '<td>' + "Duration: " + cart[i].duration + '<td>' + "R" + cart[i].price.toString() + '</td>' + '<td>' + "<button id='addTo' onclick='add()'>Add to Cart" + "</button>" + "<button id='remove' onclick='remove()' value=''>Remove from Cart" + "</button></tr>" + "</td>" 
    ;
    tbody.innerHTML += tr;
 }

@@ -72,12 +72,10 @@
 
 
 let cart = [
-   { name: 'Intro to Coding - Web Pages', description: 'Code a simple one-page website using HTML and JQuery.', price: 500},
-   { name: 'Course Two', price: 500},
-   { name: 'Course Three', price: 500},
-   { name: 'Course Four', price: 500},
-   { name: 'Course Five', price: 500},
-   { name: 'Course Six', price: 500},
+   { name: 'Intro to Coding', description: 'Code a simple one-page website using HTML and JQuery. ', price: 250, duration: ' 3 hours '},
+   { name: 'Intro to Coding', description: 'Code a simple one-page website using HTML and JQuery. ', price: 250, duration: ' 3 hours '},
+   
+   
 ];
 
 var globalCounter = 0;
@@ -86,6 +84,18 @@ for (var i = 0; i < Object.keys(cart).length; i++) {
    var tr = "<tr>";
    if (cart[i].price.toString().substring(cart[i].price.toString().indexOf('.'), cart[i].price.toString().length) < 2) cart[i].price += "0";
 
-   tr += "<td>" + cart[i].name + "</td>" + "<td>$" + cart[i].description + cart[i].price.toString() + "</td></tr>";
+   tr += "<td>" + cart[i].name + "</td>" + "<td>" + cart[i].description + "Duration: " + cart[i].duration + "R" + cart[i].price.toString() + "<button id='addTo' onclick='add()'>+ Add to Cart" + "</button>" + "<button id='remove' onclick='remove()' value=''>- Remove from Cart" + "</button></tr>" + "</td>" 
+   ;
    tbody.innerHTML += tr;
 }
+function add()
+  {
+    // This needs to add to cart
+    alert('I work');
+  }
+
+function remove()
+  {
+    // This needs to remove from the cart
+    alert('I also work');
+  }

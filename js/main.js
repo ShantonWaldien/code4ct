@@ -75,7 +75,7 @@ $(document).ready(function(){
   });
 });
 
-/* A simple and scalable hamburger menu using css transitions. */
+/* Hamburger menu for mobile */
 var isActive = false;
 
 $('.js-menu').on('click', function() {
@@ -89,3 +89,5 @@ $('.js-menu').on('click', function() {
 
 	isActive = !isActive;
 });
+
+/* PrettyPhoto for Portofolio */

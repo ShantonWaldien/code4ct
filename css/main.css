@@ -175,7 +175,7 @@ h2 {
         .mobile ul li a:hover {
           color: #FFFFFF; }
       .mobile ul li:hover {
-        background: blue; }
+        background: #FFFFFF; }
 
 /******** Buttons ********/
 .btn {
@@ -798,10 +798,18 @@ h2 {
   .portofolio-images .portofolio-image-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(445px, 1fr)); }
+    .portofolio-images .portofolio-image-grid-container div {
+      overflow: hidden; }
     .portofolio-images .portofolio-image-grid-container img {
       width: 100% !important;
       height: auto !important;
-      background-color: #5B5B5B; }
+      background-color: #5B5B5B;
+      transition: all .5s;
+      overflow: hidden; }
+      .portofolio-images .portofolio-image-grid-container img:hover {
+        transform: scale(1.2);
+        overflow: hidden;
+        opacity: 0.4; }
   .portofolio-images .gallery {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -1135,7 +1143,7 @@ h2 {
         .mobile ul li a:hover {
           color: #FFFFFF; }
       .mobile ul li:hover {
-        background: blue; }
+        background: #FFFFFF; }
 
 /******** Buttons ********/
 .btn {
@@ -1758,10 +1766,18 @@ h2 {
   .portofolio-images .portofolio-image-grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(445px, 1fr)); }
+    .portofolio-images .portofolio-image-grid-container div {
+      overflow: hidden; }
     .portofolio-images .portofolio-image-grid-container img {
       width: 100% !important;
       height: auto !important;
-      background-color: #5B5B5B; }
+      background-color: #5B5B5B;
+      transition: all .5s;
+      overflow: hidden; }
+      .portofolio-images .portofolio-image-grid-container img:hover {
+        transform: scale(1.2);
+        overflow: hidden;
+        opacity: 0.4; }
   .portofolio-images .gallery {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;

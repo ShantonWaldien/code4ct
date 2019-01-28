@@ -712,10 +712,22 @@
         display: grid;
         grid-template-columns: repeat(auto-fill, minmax(445px,1fr));
 
+        div {
+            overflow: hidden;
+        }
+
         img {
             width: 100% !important;
             height: auto !important;
             background-color: #5B5B5B;
+            transition: all .5s;
+            overflow: hidden;
+
+            &:hover {
+                transform: scale(1.2);
+                overflow: hidden;
+                opacity: 0.4;
+            }
         }
     }
 

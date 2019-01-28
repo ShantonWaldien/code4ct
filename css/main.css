@@ -39,7 +39,7 @@ h2 {
   font-size: 20px; }
 
 /******** Navigation Bar *********/
-nav {
+.desktop {
   letter-spacing: 2px;
   font-size: 0.750em;
   position: fixed;
@@ -49,7 +49,7 @@ nav {
   padding: 0.5rem 0;
   background-color: #FFFFFF;
   text-align: center; }
-  nav ul {
+  .desktop ul {
     width: 72%;
     padding: 0;
     margin: 0;
@@ -57,26 +57,26 @@ nav {
     display: inline-block;
     list-style: none;
     transition: all 300ms ease-in-out; }
-  nav .nav-item {
+  .desktop .nav-item {
     color: #A4A5A5;
     font-size: 1.2em;
     background-color: #eeeeee00;
     border: none;
     border-radius: 10px;
     padding: 15px 8px; }
-    nav .nav-item:hover {
+    .desktop .nav-item:hover {
       color: #E69286; }
-  nav li {
+  .desktop li {
     text-transform: uppercase;
     width: auto;
     font-size: 0.8em;
     display: inline-block;
     transition: all 300ms ease-in-out; }
-  nav .search-container {
+  .desktop .search-container {
     float: right;
     height: 30px;
     margin-left: -280px; }
-    nav .search-container button {
+    .desktop .search-container button {
       float: right;
       padding: 0px 10px;
       margin: 14px auto;
@@ -90,7 +90,7 @@ nav {
       border: 1px solid #A4A5A5;
       border-bottom-right-radius: 3px;
       border-top-right-radius: 3px; }
-    nav .search-container input {
+    .desktop .search-container input {
       padding: 6px 15px;
       margin: 14px auto;
       height: 25px;
@@ -100,11 +100,82 @@ nav {
       border-bottom-left-radius: 3px;
       border-top-left-radius: 3px;
       background-color: #FFFFFF; }
-  nav .logo {
+  .desktop .logo {
     vertical-align: middle;
     float: left;
     height: 53px;
     padding-left: 10px; }
+
+/**** Navbar for mobile ****/
+.menu {
+  transition: 0.1s transform linear;
+  position: fixed;
+  background: 0;
+  float: left;
+  margin: 2rem;
+  height: 2.7rem;
+  width: auto;
+  z-index: 1;
+  outline: 0;
+  padding: 10px 15px;
+  border: 0;
+  display: none; }
+
+.bar, .bar::before, .bar::after {
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+  position: absolute;
+  background: #5B5B5B;
+  margin: auto;
+  width: 100%;
+  height: 0.3rem;
+  content: '';
+  top: 50%;
+  left: 0; }
+.bar {
+  margin-top: -0.2rem; }
+.bar::before {
+  top: -1.2rem; }
+.bar::after {
+  top: 1.2rem; }
+.bar::before, .bar::after {
+  transform: rotate(0deg); }
+.active .bar {
+  background: 0; }
+  .active .bar::before {
+    transform: rotate(45deg); }
+  .active .bar::after {
+    transform: rotate(-45deg); }
+  .active .bar::before, .active .bar::after {
+    top: 0; }
+  .active .bar, .active .bar::before, .active .bar::after {
+    transition: 0.2s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s; }
+
+.mobile {
+  width: auto;
+  height: 100%;
+  background: #E69286;
+  position: fixed;
+  transform: translateX(-250px);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  padding-top: 6.2rem;
+  display: none; }
+  .menu-open .mobile {
+    transform: translateX(0); }
+  .mobile ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; }
+    .mobile ul li {
+      padding: 10px 8px;
+      font-size: 2rem; }
+      .mobile ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #5B5B5B; }
+        .mobile ul li a:hover {
+          color: #FFFFFF; }
+      .mobile ul li:hover {
+        background: blue; }
 
 /******** Buttons ********/
 .btn {
@@ -928,7 +999,7 @@ h2 {
   font-size: 20px; }
 
 /******** Navigation Bar *********/
-nav {
+.desktop {
   letter-spacing: 2px;
   font-size: 0.750em;
   position: fixed;
@@ -938,7 +1009,7 @@ nav {
   padding: 0.5rem 0;
   background-color: #FFFFFF;
   text-align: center; }
-  nav ul {
+  .desktop ul {
     width: 72%;
     padding: 0;
     margin: 0;
@@ -946,26 +1017,26 @@ nav {
     display: inline-block;
     list-style: none;
     transition: all 300ms ease-in-out; }
-  nav .nav-item {
+  .desktop .nav-item {
     color: #A4A5A5;
     font-size: 1.2em;
     background-color: #eeeeee00;
     border: none;
     border-radius: 10px;
     padding: 15px 8px; }
-    nav .nav-item:hover {
+    .desktop .nav-item:hover {
       color: #E69286; }
-  nav li {
+  .desktop li {
     text-transform: uppercase;
     width: auto;
     font-size: 0.8em;
     display: inline-block;
     transition: all 300ms ease-in-out; }
-  nav .search-container {
+  .desktop .search-container {
     float: right;
     height: 30px;
     margin-left: -280px; }
-    nav .search-container button {
+    .desktop .search-container button {
       float: right;
       padding: 0px 10px;
       margin: 14px auto;
@@ -979,7 +1050,7 @@ nav {
       border: 1px solid #A4A5A5;
       border-bottom-right-radius: 3px;
       border-top-right-radius: 3px; }
-    nav .search-container input {
+    .desktop .search-container input {
       padding: 6px 15px;
       margin: 14px auto;
       height: 25px;
@@ -989,11 +1060,82 @@ nav {
       border-bottom-left-radius: 3px;
       border-top-left-radius: 3px;
       background-color: #FFFFFF; }
-  nav .logo {
+  .desktop .logo {
     vertical-align: middle;
     float: left;
     height: 53px;
     padding-left: 10px; }
+
+/**** Navbar for mobile ****/
+.menu {
+  transition: 0.1s transform linear;
+  position: fixed;
+  background: 0;
+  float: left;
+  margin: 2rem;
+  height: 2.7rem;
+  width: auto;
+  z-index: 1;
+  outline: 0;
+  padding: 10px 15px;
+  border: 0;
+  display: none; }
+
+.bar, .bar::before, .bar::after {
+  transition: 0.2s background linear 0.1s, 0.2s top linear 0.2s, 0.2s transform linear;
+  position: absolute;
+  background: #5B5B5B;
+  margin: auto;
+  width: 100%;
+  height: 0.3rem;
+  content: '';
+  top: 50%;
+  left: 0; }
+.bar {
+  margin-top: -0.2rem; }
+.bar::before {
+  top: -1.2rem; }
+.bar::after {
+  top: 1.2rem; }
+.bar::before, .bar::after {
+  transform: rotate(0deg); }
+.active .bar {
+  background: 0; }
+  .active .bar::before {
+    transform: rotate(45deg); }
+  .active .bar::after {
+    transform: rotate(-45deg); }
+  .active .bar::before, .active .bar::after {
+    top: 0; }
+  .active .bar, .active .bar::before, .active .bar::after {
+    transition: 0.2s background linear 0.1s, 0.2s top linear, 0.2s transform linear 0.2s; }
+
+.mobile {
+  width: auto;
+  height: 100%;
+  background: #E69286;
+  position: fixed;
+  transform: translateX(-250px);
+  transition: transform 0.6s cubic-bezier(0.56, 0.1, 0.34, 0.91);
+  padding-top: 6.2rem;
+  display: none; }
+  .menu-open .mobile {
+    transform: translateX(0); }
+  .mobile ul {
+    margin: 0;
+    list-style: none;
+    padding: 0; }
+    .mobile ul li {
+      padding: 10px 8px;
+      font-size: 2rem; }
+      .mobile ul li a {
+        text-decoration: none;
+        font-size: 20px;
+        color: #5B5B5B; }
+        .mobile ul li a:hover {
+          color: #FFFFFF; }
+      .mobile ul li:hover {
+        background: blue; }
 
 /******** Buttons ********/
 .btn {
@@ -1780,23 +1922,19 @@ nav {
 @media screen and (max-width: 1318px) {
   .contact-form-grid {
     grid-template-columns: 1fr; } }
-@media screen and (max-width: 1178px) {
-  nav .logo {
+@media screen and (max-width: 1168px) {
+  main .intro-other {
+    padding: 130px 100px 100px; }
+
+  .desktop .logo {
     float: none; }
-  nav ul {
-    padding: 10px 0 0 160px; }
-    nav ul .nav-item {
-      display: grid;
+  .desktop ul {
+    width: 100%; }
+    .desktop ul .nav-item {
       text-align: center;
       margin: auto auto; }
-  nav .search-container {
-    float: none;
-    margin-left: 0;
-    height: auto; }
-    nav .search-container input {
-      margin: 0; }
-    nav .search-container button {
-      float: none; }
+  .desktop .search-container {
+    display: none; }
 
   .intro-other {
     padding: 380px 100px 100px; }
@@ -1841,5 +1979,21 @@ nav {
 
   .contact-form-grid {
     display: block; } }
+@media screen and (max-width: 881px) {
+  .mobile {
+    display: block; }
+
+  .menu {
+    display: block; }
+
+  .desktop {
+    display: none; }
+
+  .who-we-are .who-we-are-grid-container {
+    grid-template-columns: auto; }
+
+  main .intro-other {
+    margin: 0;
+    padding: 130px 100px 100px; } }
 
 /*# sourceMappingURL=main.css.map */

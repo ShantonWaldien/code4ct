@@ -20,35 +20,32 @@
     }
 }
 
-@media screen and (max-width: 1178px) {
+@media screen and (max-width: 1168px) {
 
-    nav {
+    main {
+
+        .intro-other {
+            padding: 130px 100px 100px
+        }
+    }
+
+    .desktop {
 
         .logo {
             float: none;
         }
 
-        ul {
-            padding: 10px 0 0 160px; 
+        ul { 
+            width: 100%;
+
             .nav-item {
-                display: grid;
                 text-align: center;
                 margin: auto auto;
             }
         }
 
         .search-container {
-            float: none;
-            margin-left: 0;
-            height: auto;
-
-            input {
-                margin: 0;
-            }
-
-            button {
-                float: none;
-            }
+            display: none;
         }
     }
     
@@ -153,4 +150,33 @@
         display: block;
     }
 
+}
+
+@media screen and (max-width: 881px) {
+
+    .mobile {
+        display: block;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .desktop {
+        display: none;
+    }
+    .who-we-are {
+
+        .who-we-are-grid-container {
+            grid-template-columns: auto;
+        }
+    }
+
+    main {
+
+        .intro-other {
+            margin: 0;
+            padding: 130px 100px 100px
+        }
+    }
 }

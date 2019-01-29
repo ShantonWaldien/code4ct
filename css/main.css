@@ -2017,12 +2017,21 @@ h2 {
     padding: 130px 100px 100px; } }
 /*** Home Page Responsive  Build ***/
 @media screen and (max-width: 1250px) {
+  .landing-page {
+    background-position-y: 0; }
+    .landing-page .intro {
+      padding: 15em 29%; }
+
   .who-we-are .who-we-are-grid-container {
     grid-template-columns: auto; }
     .who-we-are .who-we-are-grid-container .grid-item .btn {
       margin: 10px 0 0 0; }
     .who-we-are .who-we-are-grid-container .image-container .image-item {
-      margin: 0 auto; } }
+      margin: 0 auto; }
+
+  .skill-icons .skill-icons-grid-container {
+    padding: 120px 100px;
+    grid-template-columns: 1fr 1fr; } }
 @media screen and (max-width: 1129px) {
   .counter-section .stat-grid-container {
     grid-gap: 30px;

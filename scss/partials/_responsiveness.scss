@@ -185,6 +185,14 @@
 
 @media screen and (max-width: 1250px) {
 
+    .landing-page {
+        background-position-y: 0;
+
+        .intro {
+            padding: 15em 29%;
+        }
+    }
+    
     .who-we-are {
 
         .who-we-are-grid-container {
@@ -204,6 +212,13 @@
                 }
             }
         }
+    }
+
+    
+
+    .skill-icons .skill-icons-grid-container {
+        padding: 120px 100px;
+        grid-template-columns: 1fr 1fr;
     }
 }
 

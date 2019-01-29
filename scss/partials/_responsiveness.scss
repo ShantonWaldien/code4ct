@@ -180,3 +180,45 @@
         }
     }
 }
+
+/*** Home Page Responsive  Build ***/
+
+@media screen and (max-width: 1250px) {
+
+    .who-we-are {
+
+        .who-we-are-grid-container {
+            grid-template-columns: auto;
+
+            .grid-item {
+                
+                .btn {
+                    margin: 10px 0 0 0;
+                }
+            }
+
+            .image-container {
+                
+                .image-item {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1129px) {
+
+    .counter-section {
+
+        .stat-grid-container {
+            grid-gap: 30px;
+            padding: 120px 200px;
+            grid-template-columns: 0.5fr 0.5fr;
+
+            .counter-item {
+                padding: 0 0 0 100px;
+            }
+        }
+    }
+}

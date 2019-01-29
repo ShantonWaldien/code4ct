@@ -320,7 +320,7 @@ h2 {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 25em 29%;
+  padding: 23em 29%;
   font-size: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -809,7 +809,9 @@ h2 {
       .portofolio-images .portofolio-image-grid-container img:hover {
         transform: scale(1.2);
         overflow: hidden;
-        opacity: 0.4; }
+        opacity: 0.6;
+        background-color: grey;
+        background-blend-mode: multiply; }
   .portofolio-images .gallery {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -1288,7 +1290,7 @@ h2 {
 /********* Intro *************/
 .intro {
   text-align: center;
-  padding: 25em 29%;
+  padding: 23em 29%;
   font-size: 15px;
   margin-right: auto;
   margin-left: auto;
@@ -1777,7 +1779,9 @@ h2 {
       .portofolio-images .portofolio-image-grid-container img:hover {
         transform: scale(1.2);
         overflow: hidden;
-        opacity: 0.4; }
+        opacity: 0.6;
+        background-color: grey;
+        background-blend-mode: multiply; }
   .portofolio-images .gallery {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
@@ -2011,5 +2015,20 @@ h2 {
   main .intro-other {
     margin: 0;
     padding: 130px 100px 100px; } }
+/*** Home Page Responsive  Build ***/
+@media screen and (max-width: 1250px) {
+  .who-we-are .who-we-are-grid-container {
+    grid-template-columns: auto; }
+    .who-we-are .who-we-are-grid-container .grid-item .btn {
+      margin: 10px 0 0 0; }
+    .who-we-are .who-we-are-grid-container .image-container .image-item {
+      margin: 0 auto; } }
+@media screen and (max-width: 1129px) {
+  .counter-section .stat-grid-container {
+    grid-gap: 30px;
+    padding: 120px 200px;
+    grid-template-columns: 0.5fr 0.5fr; }
+    .counter-section .stat-grid-container .counter-item {
+      padding: 0 0 0 100px; } }
 
 /*# sourceMappingURL=main.css.map */

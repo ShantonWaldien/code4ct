@@ -153,6 +153,7 @@
 }
 
 @media screen and (max-width: 881px) {
+    
 
     .mobile {
         display: block;
@@ -217,7 +218,7 @@
     
 
     .skill-icons .skill-icons-grid-container {
-        padding: 120px 100px;
+        padding: 120px 20px;
         grid-template-columns: 1fr 1fr;
     }
 }
@@ -235,5 +236,193 @@
                 padding: 0 0 0 100px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 880px) {
+
+    .landing-page {
+        background-position-y: 0;
+
+        .intro {
+            padding: 15em 20%;
+        }
+    }
+
+    .courses-section {
+
+        .course-grid-container  {
+            grid-template-columns: 1fr 1fr;
+
+            .course-item {
+
+                &:nth-child(3) {
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 3;
+                }
+            }
+            
+        }
+    }
+
+    .meet-our-team {
+
+        .team-grid-container {
+            grid-template-columns: 300px auto;
+            grid-gap: 20px;
+        }
+    }
+
+    .counter-section {
+
+        .stat-grid-container {
+            grid-gap: 30px;
+            padding: 120px 50px;
+            grid-template-columns: auto auto;
+
+            .counter-item {
+                // padding: 0 0 0 100px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 630px) {
+
+    .who-we-are {
+
+        .who-we-are-grid-container {
+            grid-template-columns: auto;
+
+            .grid-item {
+                
+                .btn {
+                    margin: 10px 0 0 0;
+                }
+
+                
+            }
+
+            .image-container {
+                grid-template-columns: 1fr;
+            }
+
+            .image-container {
+                
+                .image-item {
+                    margin: 0 auto;
+                }
+            }
+        }
+    }
+
+    .courses-section {
+
+        .course-grid-container  {
+            grid-template-columns: 1fr;
+
+            .course-item {
+
+                &:nth-child(3) {
+                    grid-column: 1 / 2;
+                    grid-row: 3 / 3;
+                }
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width:590px) {
+
+    .counter-section {
+
+        .stat-grid-container {
+            grid-gap: 30px;
+            padding: 120px 50px;
+            grid-template-columns: auto;
+
+            .stat-counter-item {
+                margin: 0 auto;
+            }
+        }
+    }
+
+    .meet-our-team .text {
+        padding: 10px 1em 0 0
+    }
+
+    .courses-section {
+        
+        p {
+            margin: 30px 10px 100px 0;
+        }
+    }
+
+    .landing-page {
+        background-position-y: 0;
+
+        .intro {
+            padding: 15em 20%;
+
+            .revert-btn {
+                margin-left: 0;
+            }
+        }
+    }
+
+    .meet-our-team {
+
+        .team-grid-container {
+            grid-template-columns: 100%;
+            grid-gap: 20px;
+        }
+    }
+
+    .skill-icons .skill-icons-grid-container {
+        padding: 120px 20px;
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .landing-page {
+        background-position-y: 0;
+
+        .intro {
+            padding: 5em 20%;
+        }
+    }
+
+    .who-we-are {
+
+        .who-we-are-grid-container {
+            display: block;
+
+            .image-container {
+                padding: 20px 0;
+            }
+        }
+    }
+
+    .subscribe-section {
+
+        .email-container {
+
+            input {
+                width: auto;
+            }
+        }
+    }
+
+    .footer-section .footer-grid-container .footer-item {
+         padding-left: 0;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .landing-page .intro {
+        padding: 1em 15%;
     }
 }

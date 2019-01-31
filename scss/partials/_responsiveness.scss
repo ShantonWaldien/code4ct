@@ -426,3 +426,10 @@
         padding: 1em 15%;
     }
 }
+
+@media screen and (max-width: 300px) {
+
+    .landing-page .intro {
+        padding: 5em 5%;
+    }
+}

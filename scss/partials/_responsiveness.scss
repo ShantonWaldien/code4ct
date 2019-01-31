@@ -22,6 +22,26 @@
 
 @media screen and (max-width: 1168px) {
 
+    .about-us-grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    .who-we-are-container {
+        grid-template-columns: 1fr;
+
+        .who-we-are-item  {
+
+            img {
+                padding: 0 20px;
+            }
+        }
+    }
+
+    #bars {
+        padding: 70px 20px;
+        grid-gap: 5px;
+    }
+
     main {
 
         .intro-other {
@@ -132,6 +152,24 @@
 }
 
 @media screen and (max-width: 724px) {
+
+    .about-us-grid-container {
+        display: block;
+    }
+
+    #bars .circle-progress-bar-container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .who-we-are-container {
+        display: block;
+
+        .who-we-are-item  {
+
+            img {
+                padding: 0 20px;
+            }
+        }
+    }
 
     .footer-section {
         padding: 50px;
@@ -424,6 +462,10 @@
 
     .landing-page .intro {
         padding: 1em 15%;
+    }
+
+    #bars .circle-progress-bar-container {
+        grid-template-columns: 1fr;
     }
 }
 

@@ -54,7 +54,7 @@ $(window).scroll(function() {
 
 $(document).ready(function(){
   $('.logo-carousel').slick({
-    slidesToShow: 4,
+    slidesToShow: 8,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 1000,
